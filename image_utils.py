@@ -36,27 +36,36 @@ def resize_region(region):
     return cv2.resize(region,(28,28), interpolation = cv2.INTER_NEAREST)
 
 
-def select_roi(image_orig, image_bin, alphabet):
+def select_roi(image_orig, image_binn, alphabet):
 
-    cv2.imwrite("C:/Users/Jelena/Desktop/regions_preRect.png", image_bin)
-    img, contours, hierarchy = cv2.findContours(image_bin.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+    cv2.imwrite("C:/Users/Jelena/Desktop/regions_preRect.png", image_binn)
+    img, contours, hierarchy = cv2.findContours(image_binn.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     regions_array = []
+
+    filee = open("C:/Users/Jelena/Desktop/regions.txt", "a")
+    filee.write("INDEX\tX_COORD\tY_COORD\tWIDTH\tHEIGHT\tAREA\tFRAME")
+
+    idx = 0
     for contour in contours:
         x, y, w, h = cv2.boundingRect(contour)  # koordinate i velicina granicnog pravougaonika
         area = cv2.contourArea(contour)
-        counters = np.zeros(10)
 
-        if area > 3 and h < 20 and h > 10 and w < 20 and w > 2:
-        # kopirati [y:y+h+1, x:x+w+1] sa binarne slike i smestiti u novu sliku
-            region = image_bin[y:y + h + 1, x:x + w + 1]
+        #network training trenchold
+        if area > 0 and area < 150 and ((h > 10 and w < 10) or (h > 7 and w > 7)):
+            region = image_binn[y:y + h + 1, x:x + w + 1]
             regions_array.append([resize_region(region), (x, y, w, h)])
             cv2.rectangle(image_orig, (x, y), (x + w, y + h), (255,0,0), 1)
 
+            filee.write("\n"+str(idx)+"\t"+str(x)+"\t"+str(y)+"\t"+str(w)+"\t"+str(h)+"\t"+str(area))
+            idx = idx + 1
+
             out = y//100
             alphabet.append(out)
-            counters[out] = counters[out] + 1
 
-    # sortirati sve regione po x osi (sa leva na desno) i smestiti u promenljivu sorted_regions
+        filee.write("\n"+str(idx)+"\t"+str(x)+"\t"+str(y)+"\t"+str(w)+"\t"+str(h)+"\t"+str(area))
+        idx = idx + 1
+
+    filee.close()
     regions_array = [region[0] for region in regions_array]
     return image_orig, regions_array, alphabet
 

@@ -32,7 +32,7 @@ def train_ann(ann, X_train, y_train):
     ann.compile(loss='mean_squared_error', optimizer=sgd)
 
     # obucavanje neuronske mreze
-    ann.fit(X_train, y_train, epochs=1500, batch_size=1, verbose=0, shuffle=False)
+    ann.fit(X_train, y_train, epochs=2000, batch_size=1, verbose=0, shuffle=False)
 
     return ann
 
@@ -75,8 +75,8 @@ def get_as_dec(arr):
 
 
 def save_model(ann):
-    ann.save('classifier.h5')
+    ann.save('classifier_acc.h5')
 
 
 def load_modell():
-    return load_model("classifier.h5")
+    return load_model("classifier_acc.h5")
