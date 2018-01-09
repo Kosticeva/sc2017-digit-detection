@@ -2,7 +2,7 @@ import image_utils
 import training_utils
 import numpy as np
 
-image_color = image_utils.load_image('C:/Users/Jelena/Desktop/Fakultet/7. semestar/Soft/test_samples(0,25).png')
+image_color = image_utils.load_image('test samples/test_samples(0,25).png')
 img = image_utils.image_bin(image_utils.image_gray(image_color))
 img_bin = image_utils.erode(image_utils.dilate(img))
 
