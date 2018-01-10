@@ -75,8 +75,8 @@ def get_as_dec(arr):
 
 
 def save_model(ann):
-    ann.save('classifier_acc.h5')
+    ann.save('classifier_acc1.h5')
 
 
 def load_modell():
-    return load_model("classifier_acc.h5")
+    return load_model("classifier_acc1.h5")
