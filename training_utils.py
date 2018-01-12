@@ -64,6 +64,16 @@ def display_result(outputs, alphabet, real_res):
     return result
 
 
+def diss_res(outputs, alphabet):
+    result = []
+
+    for output in outputs:
+        vv = get_as_dec(alphabet[winner(output)])
+        result.append(vv)
+
+    return result
+
+
 def get_as_dec(arr):
     maxel = max(arr)
 
