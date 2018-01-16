@@ -11,10 +11,10 @@ def image_gray(image):
     return cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
 
 
-def image_bin(image_gs):
+def image_bin(image_gs, min_thresh = 70):
     height, width = image_gs.shape[0:2]
     image_binary = np.ndarray((height, width), dtype=np.uint8)
-    ret,image_bin = cv2.threshold(image_gs, 10, 255, cv2.THRESH_BINARY)
+    ret,image_bin = cv2.threshold(image_gs, min_thresh, 255, cv2.THRESH_BINARY)
     return image_bin
 
 
