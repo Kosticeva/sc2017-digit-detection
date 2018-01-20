@@ -46,3 +46,45 @@ def draw_line(mode, line, img):
     cv2.line(img, (line[0], line[1]), (line[2], line[3]), color, 1, cv2.LINE_AA)
 
     return img
+
+
+def get_line_coef(points):
+    k = (points[1] - points[3]) / (points[0] - points[2])
+    n = -k * points[0] + points[1]
+
+    return round(k), round(n)
+
+
+def check_close_ones(k,n,line, dimensions, regions):
+
+    #posto kontura nestaje u trenutku kada pipne liniju
+    #treba da proverimo razlike izmedju konture i linije i to:
+    #1) po uglovima konture - obe tacke
+    #i to za sve tacke na liniji line
+    dots = get_dots_from_line(k,n,line)
+
+    close_ones = []
+    #samo po
+
+    idx = 0
+    for x,y,w,h in dimensions:
+        for dot in dots:
+            if (abs(dot[0]-x)<3 and abs(dot[1]-y)<3) or (abs(dot[0]-(x+w))<3 and abs(dot[1]-(y+h))<3):
+                close_ones.append(regions[idx])
+                break
+        idx = idx + 1
+
+    return close_ones
+
+
+def get_dots_from_line(k, n, line):
+
+    x1 = line[0]
+    x2 = line[2]
+
+    dots = []
+
+    for x in range(x1,x2+1):
+        dots.append([x, k*x+n])
+
+    return dots
