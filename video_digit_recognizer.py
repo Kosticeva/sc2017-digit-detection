@@ -22,7 +22,7 @@ while video.isOpened():
         img = image_utils.image_bin(image_utils.image_gray(frame))
         img_bin = image_utils.erode(image_utils.dilate(img))
 
-        selected_regions, numbers = video_utils.select_roi(frame.copy(), img_bin, idx, i)
+        selected_regions, numbers, dimensions = video_utils.select_roi(frame.copy(), img_bin, idx, i)
         inputs = image_utils.prepare_for_ann(numbers)
 
         result = ann.predict(np.array(inputs, np.float32))

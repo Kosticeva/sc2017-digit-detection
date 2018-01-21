@@ -3,7 +3,7 @@ import sys
 
 res = []
 n = 0
-with open('res.txt') as file:	
+with open('results/res.txt') as file:
     data = file.read()
     lines = data.split('\n')
     for id, line in enumerate(lines):
@@ -18,7 +18,7 @@ with open('res.txt') as file:
 correct = 0
 student = []
 student_results = []
-with open("out.txt") as file:
+with open("results/out.txt") as file:
     data = file.read()
     lines = data.split('\n')
     for id, line in enumerate(lines):

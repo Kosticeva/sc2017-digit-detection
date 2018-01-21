@@ -1,113 +1,124 @@
-
-FRAME: 85	[1]
-FRAME: 87	[1]
-FRAME: 90	[1]
-FRAME: 209	[8]
-FRAME: 211	[8]
-FRAME: 240	[6]
-FRAME: 242	[6]
-FRAME: 249	[6]
-FRAME: 253	[6]
-FRAME: 354	[6]
-FRAME: 357	[6]
-FRAME: 358	[6]
-FRAME: 629	[2]
-FRAME: 630	[2]
-FRAME: 631	[2]
-FRAME: 632	[2]
-FRAME: 633	[2]
-FRAME: 634	[2]
-FRAME: 636	[7]
-FRAME: 637	[7]
-FRAME: 638	[7]
-FRAME: 639	[7]
-FRAME: 640	[7]
-FRAME: 661	[6]
-FRAME: 662	[6]
-FRAME: 663	[6]
-FRAME: 716	[1]
-FRAME: 717	[1]
-FRAME: 718	[1]
-FRAME: 723	[1]
-FRAME: 724	[9]
-FRAME: 725	[9]
-FRAME: 727	[9]
-FRAME: 728	[9]
-FRAME: 729	[9]
-FRAME: 731	[9]
-FRAME: 735	[1]
-FRAME: 736	[1]
-FRAME: 737	[1]
-FRAME: 739	[1]
-FRAME: 740	[1]
-FRAME: 741	[1]
-FRAME: 742	[1]
-FRAME: 744	[1]
-FRAME: 750	[1]
-FRAME: 759	[9]
-FRAME: 767	[1]
-FRAME: 781	[0]
-FRAME: 782	[0]
-FRAME: 783	[0]
-FRAME: 784	[0]
-FRAME: 786	[0]
-FRAME: 787	[0]
-FRAME: 788	[5]
-FRAME: 795	[0]
-FRAME: 809	[0]
-FRAME: 810	[0]
-FRAME: 811	[0]
-FRAME: 812	[0]
-FRAME: 814	[0]
-FRAME: 823	[0]
-FRAME: 849	[0]
-FRAME: 850	[0]
-FRAME: 851	[0]
-FRAME: 855	[0]
-FRAME: 856	[0]
-FRAME: 857	[0]
-FRAME: 860	[0]
-FRAME: 925	[5]
-FRAME: 937	[5]
-FRAME: 942	[5]
-FRAME: 944	[5]
-FRAME: 945	[5]
-FRAME: 946	[5]
-FRAME: 947	[5]
-FRAME: 948	[5]
-FRAME: 949	[5]
-FRAME: 950	[5]
-FRAME: 953	[5]
-FRAME: 954	[5]
-FRAME: 956	[3]
-FRAME: 1026	[0]
-FRAME: 1028	[2]
-FRAME: 1029	[2]
-FRAME: 1030	[6]
-FRAME: 1031	[6]
-FRAME: 1032	[0]
-FRAME: 1038	[2]
-FRAME: 1041	[8]
-FRAME: 1042	[8]
-FRAME: 1043	[8]
-FRAME: 1045	[8]
-FRAME: 1047	[8]
-FRAME: 1048	[4]
-FRAME: 1049	[4]
-FRAME: 1065	[1, 1]
-FRAME: 1066	[1]
-FRAME: 1067	[1]
-FRAME: 1068	[1]
-FRAME: 1074	[1, 3]
-FRAME: 1076	[1, 1]
-FRAME: 1080	[3]
-FRAME: 1081	[3]
-FRAME: 1083	[1]
-FRAME: 1084	[3]
-FRAME: 1085	[3]
-FRAME: 1086	[3]
-FRAME: 1087	[3]
-FRAME: 1091	[3]
-FRAME: 1092	[1]
-FRAME: 1093	[1]
-FRAME: 1094	[1]
+============= Pre brisanja bespotrebnih linija ================================
+FRAME: 237	[8] +
+FRAME: 238	[8]
+FRAME: 239	[8]
+FRAME: 382	[5] + (nije dobar broj, dole dobro vidi)
+FRAME: 383	[6]
+FRAME: 663	[2] +
+FRAME: 695	[6] +
+FRAME: 696	[6]
+FRAME: 796	[9] +
+FRAME: 810	[1] +
+FRAME: 899	[0] +
+FRAME: 1088	[8] +
+FRAME: 1089	[8]
+FRAME: 1117	[3] +
+--------------------------------------------------------------------------------
+============= Posle brisanja bespotrebnih linija ===============================
+FRAME: 382	[6]
+FRAME: 695	[6]
+FRAME: 796	[9]
+--------------------------------------------------------------------------------
+============= Prvi pokusaj pomeranja linija (+3) ===============================
+FRAME: 382	[6]
+FRAME: 695	[6]
+FRAME: 796	[9]
+FRAME: 803	[9]
+--------------------------------------------------------------------------------
+============= Drugi pokusaj pomeranja linija (+5) ==============================
+FRAME: 707	[7]	poboljsano
+FRAME: 797	[9]
+FRAME: 809	[1]     poboljsano
+FRAME: 813	[1]
+FRAME: 857	[0]	poboljsano
+FRAME: 858	[0]
+FRAME: 861	[0]
+FRAME: 1013	[5]     poboljsano
+FRAME: 1089	[8]     poboljsano
+FRAME: 1092	[8]
+FRAME: 1115	[1]     poboljsano
+FRAME: 1118	[1]     
+FRAME: 1122	[1]	poboljsano
+FRAME: 1125	[3]	poboljsano
+(ne registruje uopste cifre na pocetku, ona gomiletina kad prolazi)
+---------------------------------------------------------------------------------
+============= Treci pokusaj pomeranja linija (+4) ==============================
+FRAME: 240	[8]	poboljsano
+FRAME: 242	[8]
+FRAME: 243	[8]
+FRAME: 364	[1]	--- (ono prodje ispod, ne kroz)
+FRAME: 387	[6]	poboljsano
+FRAME: 666	[2]     poboljsano
+FRAME: 681	[7]
+FRAME: 696	[1]
+FRAME: 697	[1]	poboljsano
+FRAME: 698	[6]	poboljsano
+FRAME: 799	[9]
+FRAME: 801	[9]
+FRAME: 812	[1]
+FRAME: 861	[0]
+FRAME: 1016	[5]
+FRAME: 1017	[5]
+FRAME: 1120	[1]
+FRAME: 1123	[1]
+FRAME: 1127	[1]
+FRAME: 1129	[3]
+(ne registruje osmicu iz proslog pokusaja)
+---------------------------------------------------------------------------------
+(4 i 5 linije - bezveze)
+FRAME: 246	[8]
+FRAME: 263	[8]
+FRAME: 295	[8]
+FRAME: 391	[6]
+FRAME: 411	[1]
+FRAME: 695	[7]
+FRAME: 696	[7]
+FRAME: 697	[7, 6]
+FRAME: 713	[2]
+FRAME: 723	[6]
+FRAME: 808	[9]
+FRAME: 822	[9]
+FRAME: 859	[0]
+FRAME: 868	[0]
+FRAME: 871	[0]
+FRAME: 925	[0]
+FRAME: 1012	[5]
+FRAME: 1090	[8]
+FRAME: 1097	[8]
+FRAME: 1116	[1]
+FRAME: 1118	[3]
+FRAME: 1128	[1]
+FRAME: 1144	[8]
+FRAME: 1147	[1]
+----------------------------------------------------------------------------------
+====================== Svasta kakva greska sa petljom ju =========================
+FRAME: 240	[8]
+FRAME: 672	[7]
+FRAME: 697	[6]
+FRAME: 698	[6]
+FRAME: 797	[9]
+FRAME: 799	[9]
+FRAME: 808	[1]
+FRAME: 810	[1]
+FRAME: 859	[0]
+FRAME: 900	[0]
+FRAME: 1011	[5]
+FRAME: 1090	[8]
+FRAME: 1091	[8]
+FRAME: 1116	[1]
+FRAME: 1117	[3, 1]
+FRAME: 1127	[1]
+-----------------------------------------------------------------------------------
+====================== Provera redundantnosti =====================================
+FRAME: 240	[8] +
+FRAME: 672	[7] +
+FRAME: 697	[6] +
+FRAME: 797	[9] +
+FRAME: 808	[1] +
+FRAME: 859	[0] +
+FRAME: 900	[0] +
+FRAME: 1011	[5] +
+FRAME: 1090	[8] +
+FRAME: 1116	[1] +
+FRAME: 1117	[3] +
+FRAME: 1127	[1] +
