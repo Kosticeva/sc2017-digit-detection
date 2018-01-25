@@ -5,8 +5,11 @@ import numpy as np
 
 def get_only_line(mode, image):
 
-    if mode < 2:
-        img_bin = image_utils.dilate(image_utils.erode(image_utils.erode(image_utils.erode(image_utils.dilate(image[:, :, mode])))))
+    if mode == 0:
+        ret, image_bin = cv2.threshold(image[:, :, mode], 200, 255, cv2.THRESH_BINARY)
+        img_bin = image_utils.dilate(image_utils.erode(image_utils.dilate(image_utils.erode(image_bin))))
+    elif mode == 1:
+        img_bin = image_utils.erode(image_utils.dilate(image_utils.erode(image[:, :, mode])))
     else:
         img_bin = []
 
@@ -15,7 +18,7 @@ def get_only_line(mode, image):
 
 def get_line(img):
 
-    lines = cv2.HoughLinesP(img, 1, np.pi / 180, 200, 0)
+    lines = cv2.HoughLinesP(img, 1, np.pi / 180, 200, 10)
     return lines
 
 
@@ -26,7 +29,7 @@ def get_main_lines(lines):
     for j in range(len(lines)):
         for x1, y1, x2, y2 in lines[j]:
             d = np.sqrt(np.power(x1-x2, 2)+np.power(y1-y2, 2))
-            if d > 100:
+            if d > 0:
                 main_tuples.append((x1, y1, x2, y2))
 
     return main_tuples
@@ -40,16 +43,18 @@ def draw_line(mode, line, img):
     else:
         color = (0, 0, 255)
 
-    cv2.line(img, (line[0], line[1] + 4), (line[2], line[3] + 4), color, 1, cv2.LINE_AA)
+    cv2.line(img, (line[0][0], line[0][1] + 4), (line[0][2], line[0][3] + 4), color, 1, cv2.LINE_AA)
 
     return img
 
 
 #regions = svi regioni na slici, dimensions = koord ogd regiona, coordinates = koordinate pikslea linije
-def check_close_ones(regions, dimensions, coordinates):
+def check_close_ones(regions, dimensions, coordinates, video):
 
     #kada se kontura nekim delom nadje u prostoru koji zauzimaju koordinate
     #ulazi u new_regions
+    file1 = open('results/log_video_' + str(video) + '.txt', "a")
+    file1.write('\n------------------- PROXIMITY CHECK -------------------------\n')
 
     new_regions = []
     new_dimensions = []
@@ -58,9 +63,13 @@ def check_close_ones(regions, dimensions, coordinates):
         if check_if_matches_line((x, y, x+w, y+h), coordinates):
             new_regions.append(regions[idx])
             new_dimensions.append(dimensions[idx])
+            file1.write('### I AM CLOSE TO LINE (dimensions: '+str(dimensions[idx])+')\n')
+        else:
+            file1.write('@@@ I AM TOO FAR (dimensions: ' + str(dimensions[idx]) + ')\n')
 
         idx = idx + 1
 
+    file1.close()
     return new_regions, new_dimensions
 
 
@@ -72,7 +81,9 @@ def check_if_matches_line(contour, pixel_lines):
     for line in pixel_lines:
         for pixel in line:
             if contour[0] == pixel[0] and contour[1] == pixel[1]:
-                return True;
+                return True
+            elif contour[0] == pixel[0] and (contour[1] - pixel[1]) in range(0, 4):
+                return True
 
     return False
 
@@ -80,9 +91,11 @@ def check_if_matches_line(contour, pixel_lines):
 def convert_lines_to_pixels(lines, image):
 
     lines_pixels = []
-    for i in range(len(lines)):
-        lines_pixels.append(create_line_iterator(np.array([lines[i][0], lines[i][1]]),
-                                                 np.array([lines[i][2], lines[i][3]]),
+    a, b, c = lines.shape
+
+    for i in range(a):
+        lines_pixels.append(create_line_iterator(np.array([lines[i][0][0], lines[i][0][1]]),
+                                                 np.array([lines[i][0][2], lines[i][0][3]]),
                                                  image))
 
     lines_pixels = move_down_lines(lines_pixels)
@@ -175,25 +188,34 @@ def move_down_lines(line_pixels):
     return line_pixels
 
 
-def check_redundancy(regions, dimensions, added, idx):
+def check_redundancy(regions, dimensions, added, idx, video):
+
+    file1 = open('results/log_video_'+str(video)+'.txt', "a")
+    file1.write('\n-------------------- REDUNDANCY CHECK --------------------------\n')
 
     new_regions = []
     new_dimensions = []
     i = 0
     for region in regions:
         if check_if_added(dimensions[i], added, idx) == False:
+            file1.write('*** FOUND NEW REGION (dimensions: '+str(dimensions[i])+')\n')
             new_regions.append(region)
             new_dimensions.append(dimensions[i])
             added.append((dimensions[i][2], dimensions[i][3], idx))
+        else:
+            file1.write('+++ REGION APPEARING AGAIN (dimensions: ' + str(dimensions[i]) + ')\n')
+
         i = i + 1
 
+    file1.close()
     return new_regions, new_dimensions, added
 
 
 def check_if_added(checker, added, idx):
 
     for region in added:
-        if region[0] == checker[2] and region[1] == checker[3] and abs(idx - region[2]) < 10:
+        if ((abs(region[0] - checker[2]) < 2 and region[1] == checker[3]) \
+                or (region[0] == checker[2] and abs(region[1] - checker[3]) < 2)) and abs(idx - region[2]) < 15:
             return True
 
     return False
