@@ -7,9 +7,9 @@ def get_only_line(mode, image):
 
     if mode == 0:
         ret, image_bin = cv2.threshold(image[:, :, mode], 200, 255, cv2.THRESH_BINARY)
-        img_bin = image_utils.dilate(image_utils.erode(image_utils.dilate(image_utils.erode(image_bin))))
+        img_bin = image_utils.dilate(image_utils.erode(image_utils.dilate(image_utils.erode(image_bin, 3), 3), 3), 3)
     elif mode == 1:
-        img_bin = image_utils.erode(image_utils.dilate(image_utils.erode(image[:, :, mode])))
+        img_bin = image_utils.erode(image_utils.dilate(image_utils.erode(image[:, :, mode], 2), 2), 2)
     else:
         img_bin = []
 
@@ -183,7 +183,7 @@ def move_down_lines(line_pixels):
 
     for line in line_pixels:
         for pixel in line:
-            pixel[1] = pixel[1] + 4
+            pixel[1] = pixel[1] + 6
 
     return line_pixels
 
@@ -197,13 +197,16 @@ def check_redundancy(regions, dimensions, added, idx, video):
     new_dimensions = []
     i = 0
     for region in regions:
-        if check_if_added(dimensions[i], added, idx) == False:
+        flag_idx = check_if_added(dimensions[i], added, idx)
+        if flag_idx < 0:
             file1.write('*** FOUND NEW REGION (dimensions: '+str(dimensions[i])+')\n')
             new_regions.append(region)
             new_dimensions.append(dimensions[i])
-            added.append((dimensions[i][2], dimensions[i][3], idx))
+            added.append((dimensions[i][0], dimensions[i][1], dimensions[i][2], dimensions[i][3], idx))
         else:
             file1.write('+++ REGION APPEARING AGAIN (dimensions: ' + str(dimensions[i]) + ')\n')
+            added.remove(added[flag_idx])
+            added.append((dimensions[i][0], dimensions[i][1], dimensions[i][2], dimensions[i][3], idx))
 
         i = i + 1
 
@@ -213,10 +216,16 @@ def check_redundancy(regions, dimensions, added, idx, video):
 
 def check_if_added(checker, added, idx):
 
+    i = 0
     for region in added:
-        if ((abs(region[0] - checker[2]) < 2 and region[1] == checker[3]) \
-                or (region[0] == checker[2] and abs(region[1] - checker[3]) < 2)) and abs(idx - region[2]) < 15:
-            return True
+        '''if ((abs(region[2] - checker[2]) < 2 and region[3] == checker[3]) \
+                or (region[2] == checker[2] and abs(region[3] - checker[3]) < 2)
+                or ()) and abs(idx - region[4]) < 15\
+                and (abs(checker[0] - region[0]) < 4 and abs(checker[1] - region[1]) < 4):'''
+        if abs(idx - region[4]) < 15\
+                and (abs(checker[0] - region[0]) < 6 and abs(checker[1] - region[1]) < 6):
+            return i
+        i = i + 1
 
-    return False
+    return -1
 

@@ -21,7 +21,7 @@ def select_roi(image_orig, image_binn, idz, video_num):
         #if area > 7 and area < 400 and (h > 5 and ((h > 7 and w<=5) or (w>5 and area>15))) and (h<30 and w < 30) :
         #if area in range(8,400) and (h > 7 and ((w <= 5 and h>10) or (w > 5 and area > 15))) and (
                # h < 30 and w < 30):
-        if (area > 100 and  area < 450 and h < 30 and w < 30) or (area > 35.0 and area < 100.0 and (h > 14 and w > 2)):
+        if (area > 80 and  area < 450 and h < 30 and w < 30) or (area > 2 and area <= 80 and (h > 12 and w > 1)):
             region = image_binn[y:y + h + 1, x:x + w + 1]
             regions_array.append([image_utils.resize_region(region), (x, y, w, h)])
             dimensions.append((x, y, w, h))

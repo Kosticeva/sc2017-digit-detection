@@ -22,12 +22,22 @@ def invert(image):
     return 255-image
 
 
-def dilate(image):
-    kernel = np.ones((3,3)) # strukturni element 3x3 blok
+def dilate(image, i):
+    kernel = np.ones((i,i)) # strukturni element 3x3 blok
     return cv2.dilate(image, kernel, iterations=1)
 
 
-def erode(image):
+def erode(image, i):
+    kernel = np.ones((i,i)) # strukturni element 3x3 blok
+    return cv2.erode(image, kernel, iterations=1)
+
+
+def dilate_large(image):
+    kernel = np.ones((3, 3))  # strukturni element 3x3 blok
+    return cv2.dilate(image, kernel, iterations=1)
+
+
+def erode_large(image):
     kernel = np.ones((3,3)) # strukturni element 3x3 blok
     return cv2.erode(image, kernel, iterations=1)
 
@@ -106,3 +116,7 @@ def display_image(image, color= False):
 
     cv2.imwrite("C:/Users/Jelena/Desktop/regions.png", image)
 
+
+def do_er_dil(image, i, j):
+    image = erode(image, i)
+    return dilate(image, j)

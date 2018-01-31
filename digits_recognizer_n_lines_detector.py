@@ -7,8 +7,9 @@ import line_utils
 import training_utils
 
 
-for i in range(0, 10):
-#for i in range(0,1):
+#for i in range(0, 10):
+#for i in range(3,4):
+for i in range(7,10):
 
     print("--------------------------------\n"+str(i))
     video = cv2.VideoCapture('test samples/video-' + str(i) + '.avi')
@@ -18,10 +19,11 @@ for i in range(0, 10):
 
     v_w = int(video.get(3))
     v_h = int(video.get(4))
-    new_video = cv2.VideoWriter('test samples/video-new'+str(i)+'.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'),
-                                40, (v_w, v_h))
+
+    new_video = cv2.VideoWriter('noiseless_videos/video_'+str(i)+'.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 40, (v_w, v_h))
 
     idx = 0
+
     ann = training_utils.load_modell()
     final_alphabet = training_utils.convert_output([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 
@@ -36,7 +38,7 @@ for i in range(0, 10):
     sum_blue = 0
     sum_green = 0
 
-    while video.isOpened():
+    while video.isOpened(): #and (i == 1 or i == 3 or i == 4 or i == 6 or i == 9):
 
         ret, frame = video.read()
         if ret:
@@ -53,16 +55,20 @@ for i in range(0, 10):
                 lines_blue = line_utils.get_line(img_blue)
                 lines_green = line_utils.get_line(img_green)
 
-                img = image_utils.image_bin(image_utils.image_gray(frame), 200)
-                img_bin = image_utils.dilate(image_utils.erode(image_utils.dilate(img))) #dodata spolj dilatacija
+                #img_bin = image_utils.erode_large(image_utils.dilate_large(img)) #dodata spolj dilatacija
                 #sa dvostruke spolj dil promenjeno na bez spolj dil
 
                 #ovde je bilo umesto frame img_bin, da vidimo kakve cu rez dobiti sa ovim
-                #probaj grayscale ako bude govno
+
                 lines_blue_pixels = line_utils.convert_lines_to_pixels(lines_blue, image_utils.image_gray(frame))
                 lines_green_pixels = line_utils.convert_lines_to_pixels(lines_green, image_utils.image_gray(frame))
 
-                selected_regions, numbers, dimensions = video_utils.select_roi(frame.copy(), img_bin, idx, i)
+                img_bin = image_utils.image_bin(image_utils.image_gray(frame), 200)
+                img_bin_ed = image_utils.dilate(image_utils.erode(image_utils.dilate(img_bin, 1), 1),2)
+
+                cv2.imwrite('noiseless_videos/video_'+str(i)+'/frame_'+str(idx)+'.jpg', img_bin_ed)
+
+                selected_regions, numbers, dimensions = video_utils.select_roi(frame.copy(), img_bin_ed, idx, i)
 
                 blue_regions, blue_dimensions = line_utils.check_close_ones(numbers, dimensions, lines_blue_pixels, i)
                 green_regions, green_dimensions = line_utils.check_close_ones(numbers, dimensions, lines_green_pixels, i)
@@ -111,9 +117,9 @@ for i in range(0, 10):
 
                # f2.close()
 
-                #f = open("results/result_" + str(i) + ".txt", "a")
-                # f.write("\t" + str(training_utils.diss_res(result, final_alphabet)))
-                #f.close()
+                '''f = open("results/result_" + str(i) + ".txt", "a")
+                f.write("\t" + str(training_utils.diss_res(result, final_alphabet)))
+                f.close()'''
 
                 for line in lines_blue:
                     selected_regions = line_utils.draw_line(0, line, selected_regions)
@@ -130,8 +136,8 @@ for i in range(0, 10):
                               (main_green_line[2], main_green_line[3]), (0, 0, 255), 1)'''
 
                 cv2.imwrite('contoured_frames/video-'+str(i)+'/frame_'+str(idx)+'.jpg', selected_regions)
-
                 new_video.write(selected_regions)
+
                 if cv2.waitKey(1) & 0xFF == ord('q'):
                     break
 
@@ -140,8 +146,9 @@ for i in range(0, 10):
         else:
             break
 
-    f = open("results/pravi_rezultati.txt", "a")
-    f.write("rezultat videa "+str(i)+"je "+str(sum_blue-sum_green)+"("+str(sum_blue)+", "+str(sum_green)+")\n")
+    f = open("results/out.txt", "a")
+    f.write("video-"+str(i)+".avi\t"+str(sum_blue-sum_green)+"\n")
     f.close()
+
     video.release()
     new_video.release()
