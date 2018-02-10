@@ -48,12 +48,12 @@ def resize_region(region):
 
 def select_roi(image_orig, image_binn, alphabet):
 
-    cv2.imwrite("C:/Users/Jelena/Desktop/regions_preRect.png", image_binn)
+    #cv2.imwrite("C:/Users/Jelena/Desktop/regions_preRect.png", image_binn)
     img, contours, hierarchy = cv2.findContours(image_binn.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     regions_array = []
 
-    filee = open("C:/Users/Jelena/Desktop/regions.txt", "a")
-    filee.write("INDEX\tX_COORD\tY_COORD\tWIDTH\tHEIGHT\tAREA\tFRAME")
+    #filee = open("C:/Users/Jelena/Desktop/regions.txt", "a")
+    #filee.write("INDEX\tX_COORD\tY_COORD\tWIDTH\tHEIGHT\tAREA\tFRAME")
 
     idx = 0
     for contour in contours:
@@ -66,13 +66,13 @@ def select_roi(image_orig, image_binn, alphabet):
             regions_array.append([resize_region(region), (x, y, w, h)])
             cv2.rectangle(image_orig, (x, y), (x + w, y + h), (255,0,0), 1)
 
-            filee.write("\n"+str(idx)+"\t"+str(x)+"\t"+str(y)+"\t"+str(w)+"\t"+str(h)+"\t"+str(area))
+            #filee.write("\n"+str(idx)+"\t"+str(x)+"\t"+str(y)+"\t"+str(w)+"\t"+str(h)+"\t"+str(area))
             idx = idx + 1
 
             out = y//100
             alphabet.append(out)
 
-        filee.write("\n"+str(idx)+"\t"+str(x)+"\t"+str(y)+"\t"+str(w)+"\t"+str(h)+"\t"+str(area))
+        #filee.write("\n"+str(idx)+"\t"+str(x)+"\t"+str(y)+"\t"+str(w)+"\t"+str(h)+"\t"+str(area))
         idx = idx + 1
 
     filee.close()
@@ -114,7 +114,7 @@ def display_image(image, color= False):
     else:
         plt.imshow(image, 'gray')
 
-    cv2.imwrite("C:/Users/Jelena/Desktop/regions.png", image)
+    cv2.imwrite("results/regions.png", image)
 
 
 def do_er_dil(image, i, j):
