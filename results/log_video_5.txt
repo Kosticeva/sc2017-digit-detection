@@ -516,7 +516,7 @@
 @@@ I AM TOO FAR (dimensions: (356, 320, 13, 20))
 @@@ I AM TOO FAR (dimensions: (593, 319, 15, 19))
 @@@ I AM TOO FAR (dimensions: (20, 238, 19, 21))
-@@@ I AM TOO FAR (dimensions: (346, 228, 21, 13))
+### I AM CLOSE TO LINE (dimensions: (346, 228, 21, 13))
 @@@ I AM TOO FAR (dimensions: (149, 207, 17, 21))
 @@@ I AM TOO FAR (dimensions: (39, 189, 19, 16))
 @@@ I AM TOO FAR (dimensions: (540, 184, 13, 21))
@@ -547,6 +547,9 @@
 @@@ I AM TOO FAR (dimensions: (268, 27, 8, 20))
 @@@ I AM TOO FAR (dimensions: (285, 24, 11, 20))
 
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (346, 228, 21, 13))
+
 ================== FRAME 25 ==========================
 
 
@@ -555,7 +558,7 @@
 @@@ I AM TOO FAR (dimensions: (593, 321, 15, 19))
 @@@ I AM TOO FAR (dimensions: (356, 320, 13, 20))
 @@@ I AM TOO FAR (dimensions: (20, 239, 19, 21))
-@@@ I AM TOO FAR (dimensions: (347, 228, 21, 13))
+### I AM CLOSE TO LINE (dimensions: (347, 228, 21, 13))
 @@@ I AM TOO FAR (dimensions: (149, 209, 17, 21))
 @@@ I AM TOO FAR (dimensions: (40, 189, 19, 16))
 @@@ I AM TOO FAR (dimensions: (540, 184, 13, 21))
@@ -585,6 +588,9 @@
 @@@ I AM TOO FAR (dimensions: (366, 50, 13, 21))
 @@@ I AM TOO FAR (dimensions: (268, 27, 8, 20))
 @@@ I AM TOO FAR (dimensions: (287, 26, 11, 20))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (347, 228, 21, 13))
 
 ================== FRAME 26 ==========================
 
@@ -626,7 +632,7 @@
 @@@ I AM TOO FAR (dimensions: (287, 26, 11, 20))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (349, 228, 21, 13))
++++ REGION APPEARING AGAIN (dimensions: (349, 228, 21, 13))
 
 ================== FRAME 27 ==========================
 
@@ -636,7 +642,7 @@
 @@@ I AM TOO FAR (dimensions: (595, 322, 15, 19))
 @@@ I AM TOO FAR (dimensions: (357, 320, 13, 20))
 @@@ I AM TOO FAR (dimensions: (21, 239, 19, 21))
-@@@ I AM TOO FAR (dimensions: (349, 228, 21, 13))
+### I AM CLOSE TO LINE (dimensions: (349, 228, 21, 13))
 @@@ I AM TOO FAR (dimensions: (149, 211, 17, 21))
 @@@ I AM TOO FAR (dimensions: (41, 190, 19, 16))
 @@@ I AM TOO FAR (dimensions: (544, 184, 13, 21))
@@ -666,6 +672,9 @@
 @@@ I AM TOO FAR (dimensions: (367, 52, 13, 21))
 @@@ I AM TOO FAR (dimensions: (268, 31, 8, 20))
 @@@ I AM TOO FAR (dimensions: (289, 27, 11, 20))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (349, 228, 21, 13))
 
 ================== FRAME 28 ==========================
 
@@ -1148,7 +1157,7 @@
 @@@ I AM TOO FAR (dimensions: (11, 399, 15, 21))
 @@@ I AM TOO FAR (dimensions: (607, 331, 15, 19))
 @@@ I AM TOO FAR (dimensions: (366, 328, 13, 20))
-@@@ I AM TOO FAR (dimensions: (310, 255, 20, 16))
+### I AM CLOSE TO LINE (dimensions: (310, 255, 20, 16))
 @@@ I AM TOO FAR (dimensions: (32, 251, 19, 21))
 @@@ I AM TOO FAR (dimensions: (356, 237, 21, 13))
 @@@ I AM TOO FAR (dimensions: (165, 219, 17, 21))
@@ -1185,6 +1194,9 @@
 @@@ I AM TOO FAR (dimensions: (301, 32, 11, 20))
 @@@ I AM TOO FAR (dimensions: (479, 10, 11, 21))
 
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (310, 255, 20, 16))
+
 ================== FRAME 40 ==========================
 
 
@@ -1193,7 +1205,7 @@
 @@@ I AM TOO FAR (dimensions: (12, 399, 15, 21))
 @@@ I AM TOO FAR (dimensions: (607, 331, 15, 19))
 @@@ I AM TOO FAR (dimensions: (366, 329, 13, 20))
-@@@ I AM TOO FAR (dimensions: (310, 255, 20, 16))
+### I AM CLOSE TO LINE (dimensions: (310, 255, 20, 16))
 @@@ I AM TOO FAR (dimensions: (34, 251, 19, 21))
 @@@ I AM TOO FAR (dimensions: (356, 237, 21, 13))
 @@@ I AM TOO FAR (dimensions: (165, 219, 17, 21))
@@ -1229,6 +1241,9 @@
 @@@ I AM TOO FAR (dimensions: (276, 44, 8, 20))
 @@@ I AM TOO FAR (dimensions: (302, 34, 11, 20))
 @@@ I AM TOO FAR (dimensions: (479, 12, 11, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (310, 255, 20, 16))
 
 ================== FRAME 41 ==========================
 
@@ -1276,7 +1291,7 @@
 @@@ I AM TOO FAR (dimensions: (480, 12, 11, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (312, 255, 20, 16))
++++ REGION APPEARING AGAIN (dimensions: (312, 255, 20, 16))
 
 ================== FRAME 42 ==========================
 
@@ -3372,7 +3387,7 @@
 @@@ I AM TOO FAR (dimensions: (336, 448, 11, 21))
 @@@ I AM TOO FAR (dimensions: (42, 436, 15, 21))
 @@@ I AM TOO FAR (dimensions: (403, 359, 13, 20))
-@@@ I AM TOO FAR (dimensions: (347, 292, 20, 16))
+### I AM CLOSE TO LINE (dimensions: (347, 292, 20, 16))
 @@@ I AM TOO FAR (dimensions: (73, 282, 19, 21))
 @@@ I AM TOO FAR (dimensions: (403, 269, 21, 13))
 @@@ I AM TOO FAR (dimensions: (194, 247, 17, 21))
@@ -3391,6 +3406,9 @@
 @@@ I AM TOO FAR (dimensions: (54, 28, 8, 20))
 @@@ I AM TOO FAR (dimensions: (32, 28, 20, 19))
 @@@ I AM TOO FAR (dimensions: (109, 24, 17, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (347, 292, 20, 16))
 
 ================== FRAME 85 ==========================
 
@@ -3444,7 +3462,7 @@
 @@@ I AM TOO FAR (dimensions: (111, 26, 17, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (347, 294, 20, 16))
++++ REGION APPEARING AGAIN (dimensions: (347, 294, 20, 16))
 
 ================== FRAME 86 ==========================
 
@@ -3981,7 +3999,7 @@
 @@@ I AM TOO FAR (dimensions: (91, 176, 15, 21))
 @@@ I AM TOO FAR (dimensions: (355, 131, 8, 21))
 @@@ I AM TOO FAR (dimensions: (267, 122, 16, 21))
-@@@ I AM TOO FAR (dimensions: (491, 118, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (491, 118, 13, 21))
 @@@ I AM TOO FAR (dimensions: (330, 109, 17, 21))
 @@@ I AM TOO FAR (dimensions: (420, 95, 13, 21))
 @@@ I AM TOO FAR (dimensions: (314, 83, 8, 20))
@@ -4015,6 +4033,9 @@
 @@@ I AM TOO FAR (dimensions: (37, 37, 21, 19))
 @@@ I AM TOO FAR (dimensions: (120, 33, 17, 21))
 
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (491, 118, 13, 21))
+
 ================== FRAME 97 ==========================
 
 
@@ -4030,7 +4051,7 @@
 @@@ I AM TOO FAR (dimensions: (92, 176, 15, 21))
 @@@ I AM TOO FAR (dimensions: (357, 131, 8, 21))
 @@@ I AM TOO FAR (dimensions: (269, 123, 16, 21))
-@@@ I AM TOO FAR (dimensions: (491, 119, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (491, 119, 13, 21))
 @@@ I AM TOO FAR (dimensions: (332, 109, 17, 21))
 @@@ I AM TOO FAR (dimensions: (421, 97, 13, 21))
 @@@ I AM TOO FAR (dimensions: (316, 83, 8, 20))
@@ -4063,6 +4084,9 @@
 @@@ I AM TOO FAR (dimensions: (146, 37, 20, 19))
 @@@ I AM TOO FAR (dimensions: (38, 37, 21, 19))
 @@@ I AM TOO FAR (dimensions: (120, 33, 17, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (491, 119, 13, 21))
 
 ================== FRAME 98 ==========================
 
@@ -4079,7 +4103,7 @@
 @@@ I AM TOO FAR (dimensions: (92, 178, 15, 21))
 @@@ I AM TOO FAR (dimensions: (357, 131, 8, 21))
 @@@ I AM TOO FAR (dimensions: (270, 123, 16, 21))
-@@@ I AM TOO FAR (dimensions: (491, 119, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (491, 119, 13, 21))
 @@@ I AM TOO FAR (dimensions: (332, 109, 17, 21))
 @@@ I AM TOO FAR (dimensions: (423, 97, 13, 21))
 @@@ I AM TOO FAR (dimensions: (318, 83, 8, 20))
@@ -4113,6 +4137,9 @@
 @@@ I AM TOO FAR (dimensions: (40, 38, 21, 19))
 @@@ I AM TOO FAR (dimensions: (120, 34, 17, 21))
 
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (491, 119, 13, 21))
+
 ================== FRAME 99 ==========================
 
 
@@ -4128,7 +4155,7 @@
 @@@ I AM TOO FAR (dimensions: (94, 179, 15, 21))
 @@@ I AM TOO FAR (dimensions: (358, 132, 8, 21))
 @@@ I AM TOO FAR (dimensions: (272, 125, 16, 21))
-@@@ I AM TOO FAR (dimensions: (493, 120, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (493, 120, 13, 21))
 @@@ I AM TOO FAR (dimensions: (334, 110, 17, 21))
 @@@ I AM TOO FAR (dimensions: (423, 97, 13, 21))
 @@@ I AM TOO FAR (dimensions: (319, 85, 8, 20))
@@ -4161,6 +4188,9 @@
 @@@ I AM TOO FAR (dimensions: (150, 39, 20, 19))
 @@@ I AM TOO FAR (dimensions: (41, 39, 20, 19))
 @@@ I AM TOO FAR (dimensions: (121, 36, 17, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (493, 120, 13, 21))
 
 ================== FRAME 100 ==========================
 
@@ -4177,7 +4207,7 @@
 @@@ I AM TOO FAR (dimensions: (94, 180, 15, 21))
 @@@ I AM TOO FAR (dimensions: (359, 132, 8, 21))
 @@@ I AM TOO FAR (dimensions: (273, 125, 16, 21))
-@@@ I AM TOO FAR (dimensions: (493, 120, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (493, 120, 13, 21))
 @@@ I AM TOO FAR (dimensions: (334, 110, 17, 21))
 @@@ I AM TOO FAR (dimensions: (425, 97, 13, 21))
 @@@ I AM TOO FAR (dimensions: (319, 86, 8, 20))
@@ -4210,6 +4240,9 @@
 @@@ I AM TOO FAR (dimensions: (151, 40, 20, 19))
 @@@ I AM TOO FAR (dimensions: (41, 39, 20, 19))
 @@@ I AM TOO FAR (dimensions: (121, 37, 17, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (493, 120, 13, 21))
 
 ================== FRAME 101 ==========================
 
@@ -4261,7 +4294,7 @@
 @@@ I AM TOO FAR (dimensions: (121, 39, 17, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (493, 120, 13, 21))
++++ REGION APPEARING AGAIN (dimensions: (493, 120, 13, 21))
 
 ================== FRAME 102 ==========================
 
@@ -6690,11 +6723,11 @@
 @@@ I AM TOO FAR (dimensions: (247, 299, 17, 21))
 @@@ I AM TOO FAR (dimensions: (125, 297, 19, 16))
 @@@ I AM TOO FAR (dimensions: (128, 221, 15, 21))
-@@@ I AM TOO FAR (dimensions: (404, 183, 8, 21))
+### I AM CLOSE TO LINE (dimensions: (404, 183, 8, 21))
 @@@ I AM TOO FAR (dimensions: (302, 162, 16, 21))
 @@@ I AM TOO FAR (dimensions: (537, 157, 13, 21))
 @@@ I AM TOO FAR (dimensions: (373, 153, 17, 21))
-@@@ I AM TOO FAR (dimensions: (458, 144, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (458, 144, 13, 21))
 @@@ I AM TOO FAR (dimensions: (382, 128, 11, 20))
 @@@ I AM TOO FAR (dimensions: (358, 120, 8, 20))
 @@@ I AM TOO FAR (dimensions: (569, 100, 11, 21))
@@ -6728,6 +6761,10 @@
 @@@ I AM TOO FAR (dimensions: (372, 31, 10, 21))
 @@@ I AM TOO FAR (dimensions: (192, 22, 13, 20))
 
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (404, 183, 8, 21))
+*** FOUND NEW REGION (dimensions: (458, 144, 13, 21))
+
 ================== FRAME 153 ==========================
 
 
@@ -6743,7 +6780,7 @@
 @@@ I AM TOO FAR (dimensions: (303, 162, 16, 21))
 @@@ I AM TOO FAR (dimensions: (539, 157, 13, 21))
 @@@ I AM TOO FAR (dimensions: (375, 155, 17, 21))
-@@@ I AM TOO FAR (dimensions: (460, 144, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (460, 144, 13, 21))
 @@@ I AM TOO FAR (dimensions: (382, 130, 11, 20))
 @@@ I AM TOO FAR (dimensions: (358, 120, 8, 20))
 @@@ I AM TOO FAR (dimensions: (569, 100, 11, 21))
@@ -6777,6 +6814,9 @@
 @@@ I AM TOO FAR (dimensions: (372, 31, 10, 21))
 @@@ I AM TOO FAR (dimensions: (192, 22, 13, 20))
 
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (460, 144, 13, 21))
+
 ================== FRAME 154 ==========================
 
 
@@ -6788,7 +6828,7 @@
 @@@ I AM TOO FAR (dimensions: (248, 300, 17, 21))
 @@@ I AM TOO FAR (dimensions: (129, 299, 19, 16))
 @@@ I AM TOO FAR (dimensions: (129, 223, 15, 21))
-@@@ I AM TOO FAR (dimensions: (406, 183, 8, 21))
+### I AM CLOSE TO LINE (dimensions: (406, 183, 8, 21))
 @@@ I AM TOO FAR (dimensions: (304, 162, 16, 21))
 @@@ I AM TOO FAR (dimensions: (540, 159, 13, 21))
 @@@ I AM TOO FAR (dimensions: (375, 157, 17, 21))
@@ -6827,7 +6867,8 @@
 @@@ I AM TOO FAR (dimensions: (193, 22, 13, 20))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (462, 145, 13, 21))
++++ REGION APPEARING AGAIN (dimensions: (406, 183, 8, 21))
++++ REGION APPEARING AGAIN (dimensions: (462, 145, 13, 21))
 
 ================== FRAME 155 ==========================
 
@@ -6879,7 +6920,7 @@
 @@@ I AM TOO FAR (dimensions: (193, 22, 13, 20))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (407, 185, 8, 21))
++++ REGION APPEARING AGAIN (dimensions: (407, 185, 8, 21))
 +++ REGION APPEARING AGAIN (dimensions: (464, 145, 13, 21))
 
 ================== FRAME 156 ==========================
@@ -8844,7 +8885,7 @@
 ### I AM CLOSE TO LINE (dimensions: (402, 190, 17, 21))
 @@@ I AM TOO FAR (dimensions: (576, 188, 13, 21))
 @@@ I AM TOO FAR (dimensions: (497, 177, 13, 21))
-@@@ I AM TOO FAR (dimensions: (416, 174, 11, 13))
+### I AM CLOSE TO LINE (dimensions: (416, 174, 11, 13))
 @@@ I AM TOO FAR (dimensions: (394, 148, 8, 20))
 @@@ I AM TOO FAR (dimensions: (122, 132, 16, 21))
 @@@ I AM TOO FAR (dimensions: (602, 129, 11, 21))
@@ -8880,6 +8921,7 @@
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (402, 190, 17, 21))
+*** FOUND NEW REGION (dimensions: (416, 174, 11, 13))
 
 ================== FRAME 196 ==========================
 
@@ -8967,7 +9009,7 @@
 @@@ I AM TOO FAR (dimensions: (176, 370, 14, 13))
 @@@ I AM TOO FAR (dimensions: (427, 368, 20, 16))
 @@@ I AM TOO FAR (dimensions: (483, 355, 21, 13))
-@@@ I AM TOO FAR (dimensions: (284, 329, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (284, 329, 17, 21))
 @@@ I AM TOO FAR (dimensions: (163, 328, 19, 16))
 @@@ I AM TOO FAR (dimensions: (16, 328, 20, 21))
 @@@ I AM TOO FAR (dimensions: (161, 266, 15, 21))
@@ -8988,6 +9030,9 @@
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (403, 192, 17, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (284, 329, 17, 21))
 
 ================== FRAME 198 ==========================
 
@@ -9095,7 +9140,7 @@
 @@@ I AM TOO FAR (dimensions: (230, 65, 13, 20))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (284, 332, 17, 21))
++++ REGION APPEARING AGAIN (dimensions: (284, 332, 17, 21))
 
 ================== FRAME 200 ==========================
 
@@ -9164,7 +9209,7 @@
 @@@ I AM TOO FAR (dimensions: (405, 197, 17, 21))
 @@@ I AM TOO FAR (dimensions: (576, 196, 13, 21))
 @@@ I AM TOO FAR (dimensions: (499, 181, 13, 21))
-@@@ I AM TOO FAR (dimensions: (419, 174, 11, 20))
+### I AM CLOSE TO LINE (dimensions: (419, 174, 11, 20))
 @@@ I AM TOO FAR (dimensions: (398, 153, 8, 20))
 @@@ I AM TOO FAR (dimensions: (124, 137, 16, 21))
 @@@ I AM TOO FAR (dimensions: (608, 134, 11, 21))
@@ -9199,6 +9244,9 @@
 @@@ I AM TOO FAR (dimensions: (579, 6, 13, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (419, 174, 11, 20))
+
+-------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (286, 332, 17, 21))
 
 ================== FRAME 202 ==========================
@@ -9216,7 +9264,7 @@
 @@@ I AM TOO FAR (dimensions: (576, 197, 13, 21))
 @@@ I AM TOO FAR (dimensions: (407, 197, 17, 21))
 @@@ I AM TOO FAR (dimensions: (501, 182, 13, 21))
-@@@ I AM TOO FAR (dimensions: (420, 174, 11, 20))
+### I AM CLOSE TO LINE (dimensions: (420, 174, 11, 20))
 @@@ I AM TOO FAR (dimensions: (398, 154, 8, 20))
 @@@ I AM TOO FAR (dimensions: (125, 138, 16, 21))
 @@@ I AM TOO FAR (dimensions: (610, 134, 11, 21))
@@ -9249,6 +9297,9 @@
 @@@ I AM TOO FAR (dimensions: (408, 68, 10, 21))
 @@@ I AM TOO FAR (dimensions: (232, 67, 13, 20))
 @@@ I AM TOO FAR (dimensions: (579, 6, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (420, 174, 11, 20))
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (286, 333, 17, 21))
@@ -9303,7 +9354,7 @@
 @@@ I AM TOO FAR (dimensions: (579, 6, 13, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (421, 176, 11, 20))
++++ REGION APPEARING AGAIN (dimensions: (421, 176, 11, 20))
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (288, 333, 17, 21))
@@ -10165,7 +10216,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (444, 387, 20, 16))
-@@@ I AM TOO FAR (dimensions: (188, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (188, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (500, 371, 21, 13))
 @@@ I AM TOO FAR (dimensions: (177, 349, 19, 16))
 @@@ I AM TOO FAR (dimensions: (305, 345, 17, 21))
@@ -10187,6 +10238,9 @@
 @@@ I AM TOO FAR (dimensions: (247, 83, 13, 20))
 @@@ I AM TOO FAR (dimensions: (415, 81, 10, 21))
 @@@ I AM TOO FAR (dimensions: (594, 25, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (188, 386, 19, 21))
 
 ================== FRAME 221 ==========================
 
@@ -10218,7 +10272,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (445, 388, 20, 16))
-@@@ I AM TOO FAR (dimensions: (190, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (190, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (502, 372, 21, 13))
 @@@ I AM TOO FAR (dimensions: (178, 351, 19, 16))
 @@@ I AM TOO FAR (dimensions: (305, 346, 17, 21))
@@ -10240,6 +10294,9 @@
 @@@ I AM TOO FAR (dimensions: (247, 85, 13, 20))
 @@@ I AM TOO FAR (dimensions: (416, 81, 10, 21))
 @@@ I AM TOO FAR (dimensions: (594, 27, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (190, 386, 19, 21))
 
 ================== FRAME 222 ==========================
 
@@ -10271,7 +10328,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (445, 389, 20, 16))
-@@@ I AM TOO FAR (dimensions: (190, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (190, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (503, 374, 21, 13))
 @@@ I AM TOO FAR (dimensions: (178, 351, 18, 16))
 @@@ I AM TOO FAR (dimensions: (305, 346, 17, 21))
@@ -10293,6 +10350,9 @@
 @@@ I AM TOO FAR (dimensions: (248, 86, 13, 20))
 @@@ I AM TOO FAR (dimensions: (416, 83, 10, 21))
 @@@ I AM TOO FAR (dimensions: (595, 27, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (190, 386, 19, 21))
 
 ================== FRAME 223 ==========================
 
@@ -10324,7 +10384,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (445, 389, 20, 16))
-@@@ I AM TOO FAR (dimensions: (190, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (190, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (503, 375, 21, 13))
 @@@ I AM TOO FAR (dimensions: (179, 352, 18, 16))
 @@@ I AM TOO FAR (dimensions: (35, 347, 20, 21))
@@ -10350,6 +10410,9 @@
 -------------------- REDUNDANCY CHECK --------------------------
 *** FOUND NEW REGION (dimensions: (367, 214, 16, 21))
 
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (190, 386, 19, 21))
+
 ================== FRAME 224 ==========================
 
 
@@ -10364,7 +10427,7 @@
 @@@ I AM TOO FAR (dimensions: (180, 282, 15, 21))
 @@@ I AM TOO FAR (dimensions: (453, 231, 8, 21))
 @@@ I AM TOO FAR (dimensions: (424, 218, 17, 21))
-@@@ I AM TOO FAR (dimensions: (367, 214, 16, 21))
+### I AM CLOSE TO LINE (dimensions: (367, 214, 16, 21))
 @@@ I AM TOO FAR (dimensions: (592, 209, 13, 21))
 @@@ I AM TOO FAR (dimensions: (518, 199, 13, 21))
 @@@ I AM TOO FAR (dimensions: (434, 192, 11, 20))
@@ -10379,7 +10442,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (446, 390, 20, 16))
-@@@ I AM TOO FAR (dimensions: (192, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (192, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (504, 375, 21, 13))
 @@@ I AM TOO FAR (dimensions: (181, 352, 18, 16))
 @@@ I AM TOO FAR (dimensions: (305, 348, 17, 21))
@@ -10400,6 +10463,12 @@
 @@@ I AM TOO FAR (dimensions: (249, 87, 13, 20))
 @@@ I AM TOO FAR (dimensions: (416, 86, 10, 21))
 @@@ I AM TOO FAR (dimensions: (595, 27, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (367, 214, 16, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (192, 386, 19, 21))
 
 ================== FRAME 225 ==========================
 
@@ -10430,7 +10499,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (447, 392, 20, 16))
-@@@ I AM TOO FAR (dimensions: (192, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (192, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (504, 375, 21, 13))
 @@@ I AM TOO FAR (dimensions: (181, 352, 18, 16))
 @@@ I AM TOO FAR (dimensions: (306, 349, 17, 21))
@@ -10454,6 +10523,9 @@
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (367, 214, 16, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (192, 386, 19, 21))
 
 ================== FRAME 226 ==========================
 
@@ -10484,7 +10556,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (447, 392, 20, 16))
-@@@ I AM TOO FAR (dimensions: (192, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (192, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (506, 376, 21, 13))
 @@@ I AM TOO FAR (dimensions: (181, 354, 18, 16))
 @@@ I AM TOO FAR (dimensions: (306, 351, 17, 21))
@@ -10508,6 +10580,9 @@
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (369, 214, 16, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (192, 386, 19, 21))
 
 ================== FRAME 227 ==========================
 
@@ -10538,7 +10613,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (448, 392, 20, 16))
-@@@ I AM TOO FAR (dimensions: (192, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (192, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (508, 378, 21, 13))
 @@@ I AM TOO FAR (dimensions: (181, 354, 18, 16))
 @@@ I AM TOO FAR (dimensions: (307, 351, 17, 21))
@@ -10562,6 +10637,9 @@
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (370, 216, 16, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (192, 386, 19, 21))
 
 ================== FRAME 228 ==========================
 
@@ -10592,7 +10670,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (448, 392, 20, 16))
-@@@ I AM TOO FAR (dimensions: (193, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (193, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (508, 380, 21, 13))
 @@@ I AM TOO FAR (dimensions: (181, 356, 19, 16))
 @@@ I AM TOO FAR (dimensions: (309, 351, 17, 21))
@@ -10614,6 +10692,9 @@
 @@@ I AM TOO FAR (dimensions: (421, 86, 10, 21))
 @@@ I AM TOO FAR (dimensions: (596, 29, 13, 21))
 
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (193, 386, 19, 21))
+
 ================== FRAME 229 ==========================
 
 
@@ -10632,7 +10713,7 @@
 @@@ I AM TOO FAR (dimensions: (597, 211, 13, 21))
 @@@ I AM TOO FAR (dimensions: (525, 205, 13, 21))
 @@@ I AM TOO FAR (dimensions: (439, 199, 10, 16))
-@@@ I AM TOO FAR (dimensions: (414, 176, 8, 20))
+### I AM CLOSE TO LINE (dimensions: (414, 176, 8, 20))
 @@@ I AM TOO FAR (dimensions: (144, 157, 16, 21))
 @@@ I AM TOO FAR (dimensions: (165, 137, 20, 19))
 @@@ I AM TOO FAR (dimensions: (254, 135, 20, 19))
@@ -10644,7 +10725,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (449, 394, 20, 16))
-@@@ I AM TOO FAR (dimensions: (194, 386, 19, 21))
+### I AM CLOSE TO LINE (dimensions: (194, 386, 19, 21))
 @@@ I AM TOO FAR (dimensions: (509, 382, 21, 13))
 @@@ I AM TOO FAR (dimensions: (183, 356, 19, 16))
 @@@ I AM TOO FAR (dimensions: (309, 351, 17, 21))
@@ -10666,6 +10747,12 @@
 @@@ I AM TOO FAR (dimensions: (423, 86, 10, 21))
 @@@ I AM TOO FAR (dimensions: (596, 31, 13, 21))
 @@@ I AM TOO FAR (dimensions: (358, 7, 21, 19))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (414, 176, 8, 20))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (194, 386, 19, 21))
 
 ================== FRAME 230 ==========================
 
@@ -10721,10 +10808,10 @@
 @@@ I AM TOO FAR (dimensions: (360, 7, 21, 19))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (416, 178, 8, 20))
++++ REGION APPEARING AGAIN (dimensions: (416, 178, 8, 20))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (196, 386, 19, 21))
++++ REGION APPEARING AGAIN (dimensions: (196, 386, 19, 21))
 
 ================== FRAME 231 ==========================
 
@@ -11893,7 +11980,7 @@
 @@@ I AM TOO FAR (dimensions: (471, 413, 20, 16))
 @@@ I AM TOO FAR (dimensions: (216, 403, 19, 21))
 @@@ I AM TOO FAR (dimensions: (522, 399, 21, 13))
-@@@ I AM TOO FAR (dimensions: (198, 381, 18, 16))
+### I AM CLOSE TO LINE (dimensions: (198, 381, 18, 16))
 @@@ I AM TOO FAR (dimensions: (325, 369, 17, 21))
 @@@ I AM TOO FAR (dimensions: (49, 362, 20, 21))
 @@@ I AM TOO FAR (dimensions: (31, 329, 15, 20))
@@ -11914,6 +12001,9 @@
 @@@ I AM TOO FAR (dimensions: (435, 97, 10, 21))
 @@@ I AM TOO FAR (dimensions: (615, 57, 13, 21))
 @@@ I AM TOO FAR (dimensions: (374, 21, 21, 19))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (198, 381, 18, 16))
 
 ================== FRAME 253 ==========================
 
@@ -11948,7 +12038,7 @@
 @@@ I AM TOO FAR (dimensions: (473, 413, 20, 16))
 @@@ I AM TOO FAR (dimensions: (216, 403, 19, 21))
 @@@ I AM TOO FAR (dimensions: (522, 400, 21, 13))
-@@@ I AM TOO FAR (dimensions: (198, 383, 19, 16))
+### I AM CLOSE TO LINE (dimensions: (198, 383, 19, 16))
 @@@ I AM TOO FAR (dimensions: (325, 369, 17, 21))
 @@@ I AM TOO FAR (dimensions: (51, 363, 20, 21))
 @@@ I AM TOO FAR (dimensions: (31, 331, 15, 20))
@@ -11969,6 +12059,9 @@
 @@@ I AM TOO FAR (dimensions: (436, 97, 10, 21))
 @@@ I AM TOO FAR (dimensions: (616, 59, 13, 21))
 @@@ I AM TOO FAR (dimensions: (375, 21, 21, 19))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (198, 383, 19, 16))
 
 ================== FRAME 254 ==========================
 
@@ -12026,7 +12119,7 @@
 @@@ I AM TOO FAR (dimensions: (375, 21, 21, 19))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (199, 384, 19, 16))
++++ REGION APPEARING AGAIN (dimensions: (199, 384, 19, 16))
 
 ================== FRAME 255 ==========================
 
@@ -14537,7 +14630,7 @@
 @@@ I AM TOO FAR (dimensions: (277, 190, 17, 21))
 @@@ I AM TOO FAR (dimensions: (61, 181, 13, 21))
 @@@ I AM TOO FAR (dimensions: (307, 141, 13, 20))
-@@@ I AM TOO FAR (dimensions: (461, 140, 10, 21))
+### I AM CLOSE TO LINE (dimensions: (461, 140, 10, 21))
 @@@ I AM TOO FAR (dimensions: (413, 57, 21, 19))
 @@@ I AM TOO FAR (dimensions: (495, 8, 13, 21))
 
@@ -14566,6 +14659,9 @@
 @@@ I AM TOO FAR (dimensions: (413, 57, 21, 19))
 @@@ I AM TOO FAR (dimensions: (495, 8, 13, 21))
 
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (461, 140, 10, 21))
+
 ================== FRAME 305 ==========================
 
 
@@ -14590,7 +14686,7 @@
 @@@ I AM TOO FAR (dimensions: (279, 190, 17, 21))
 @@@ I AM TOO FAR (dimensions: (62, 181, 13, 21))
 @@@ I AM TOO FAR (dimensions: (309, 143, 13, 20))
-@@@ I AM TOO FAR (dimensions: (463, 140, 10, 21))
+### I AM CLOSE TO LINE (dimensions: (463, 140, 10, 21))
 @@@ I AM TOO FAR (dimensions: (413, 57, 21, 19))
 @@@ I AM TOO FAR (dimensions: (497, 9, 13, 21))
 
@@ -14618,6 +14714,9 @@
 @@@ I AM TOO FAR (dimensions: (463, 140, 10, 21))
 @@@ I AM TOO FAR (dimensions: (413, 57, 21, 19))
 @@@ I AM TOO FAR (dimensions: (497, 9, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (463, 140, 10, 21))
 
 ================== FRAME 306 ==========================
 
@@ -14643,7 +14742,7 @@
 @@@ I AM TOO FAR (dimensions: (279, 190, 17, 21))
 @@@ I AM TOO FAR (dimensions: (64, 182, 13, 21))
 @@@ I AM TOO FAR (dimensions: (309, 144, 13, 20))
-@@@ I AM TOO FAR (dimensions: (465, 140, 10, 21))
+### I AM CLOSE TO LINE (dimensions: (465, 140, 10, 21))
 @@@ I AM TOO FAR (dimensions: (414, 57, 21, 19))
 @@@ I AM TOO FAR (dimensions: (497, 9, 13, 21))
 
@@ -14671,6 +14770,9 @@
 @@@ I AM TOO FAR (dimensions: (465, 140, 10, 21))
 @@@ I AM TOO FAR (dimensions: (414, 57, 21, 19))
 @@@ I AM TOO FAR (dimensions: (497, 9, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (465, 140, 10, 21))
 
 ================== FRAME 307 ==========================
 
@@ -14726,7 +14828,7 @@
 @@@ I AM TOO FAR (dimensions: (497, 9, 13, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (466, 142, 10, 21))
++++ REGION APPEARING AGAIN (dimensions: (466, 142, 10, 21))
 
 ================== FRAME 308 ==========================
 
@@ -15141,7 +15243,7 @@
 @@@ I AM TOO FAR (dimensions: (98, 424, 20, 21))
 @@@ I AM TOO FAR (dimensions: (368, 413, 17, 21))
 @@@ I AM TOO FAR (dimensions: (80, 378, 15, 20))
-@@@ I AM TOO FAR (dimensions: (256, 348, 15, 21))
+### I AM CLOSE TO LINE (dimensions: (256, 348, 15, 21))
 @@@ I AM TOO FAR (dimensions: (482, 287, 17, 21))
 @@@ I AM TOO FAR (dimensions: (437, 286, 16, 21))
 @@@ I AM TOO FAR (dimensions: (508, 283, 8, 21))
@@ -15157,6 +15259,9 @@
 @@@ I AM TOO FAR (dimensions: (473, 150, 10, 21))
 @@@ I AM TOO FAR (dimensions: (423, 62, 21, 19))
 @@@ I AM TOO FAR (dimensions: (503, 13, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (256, 348, 15, 21))
 
 ================== FRAME 316 ==========================
 
@@ -15212,7 +15317,7 @@
 @@@ I AM TOO FAR (dimensions: (503, 14, 13, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (257, 348, 15, 21))
++++ REGION APPEARING AGAIN (dimensions: (257, 348, 15, 21))
 
 ================== FRAME 317 ==========================
 
@@ -15250,7 +15355,7 @@
 @@@ I AM TOO FAR (dimensions: (100, 427, 20, 21))
 @@@ I AM TOO FAR (dimensions: (368, 415, 17, 21))
 @@@ I AM TOO FAR (dimensions: (80, 382, 15, 20))
-@@@ I AM TOO FAR (dimensions: (257, 348, 15, 21))
+### I AM CLOSE TO LINE (dimensions: (257, 348, 15, 21))
 @@@ I AM TOO FAR (dimensions: (483, 289, 17, 21))
 @@@ I AM TOO FAR (dimensions: (510, 287, 8, 21))
 @@@ I AM TOO FAR (dimensions: (438, 287, 16, 21))
@@ -15266,6 +15371,9 @@
 @@@ I AM TOO FAR (dimensions: (474, 152, 10, 21))
 @@@ I AM TOO FAR (dimensions: (423, 64, 21, 19))
 @@@ I AM TOO FAR (dimensions: (503, 15, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (257, 348, 15, 21))
 
 ================== FRAME 318 ==========================
 
@@ -16256,7 +16364,7 @@
 @@@ I AM TOO FAR (dimensions: (606, 288, 13, 21))
 @@@ I AM TOO FAR (dimensions: (512, 277, 11, 20))
 @@@ I AM TOO FAR (dimensions: (501, 254, 8, 20))
-@@@ I AM TOO FAR (dimensions: (339, 233, 20, 19))
+### I AM CLOSE TO LINE (dimensions: (339, 233, 20, 19))
 @@@ I AM TOO FAR (dimensions: (249, 219, 20, 19))
 @@@ I AM TOO FAR (dimensions: (235, 219, 9, 20))
 @@@ I AM TOO FAR (dimensions: (306, 216, 16, 21))
@@ -16289,6 +16397,9 @@
 @@@ I AM TOO FAR (dimensions: (435, 78, 21, 19))
 @@@ I AM TOO FAR (dimensions: (518, 29, 13, 21))
 
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (339, 233, 20, 19))
+
 ================== FRAME 339 ==========================
 
 
@@ -16305,7 +16416,7 @@
 @@@ I AM TOO FAR (dimensions: (607, 288, 13, 21))
 @@@ I AM TOO FAR (dimensions: (512, 277, 11, 20))
 @@@ I AM TOO FAR (dimensions: (503, 254, 8, 20))
-@@@ I AM TOO FAR (dimensions: (339, 235, 20, 19))
+### I AM CLOSE TO LINE (dimensions: (339, 235, 20, 19))
 @@@ I AM TOO FAR (dimensions: (250, 220, 20, 19))
 @@@ I AM TOO FAR (dimensions: (236, 220, 9, 20))
 @@@ I AM TOO FAR (dimensions: (308, 216, 16, 21))
@@ -16337,6 +16448,9 @@
 @@@ I AM TOO FAR (dimensions: (337, 168, 13, 20))
 @@@ I AM TOO FAR (dimensions: (437, 80, 21, 19))
 @@@ I AM TOO FAR (dimensions: (518, 29, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (339, 235, 20, 19))
 
 ================== FRAME 340 ==========================
 
@@ -16388,7 +16502,7 @@
 @@@ I AM TOO FAR (dimensions: (520, 30, 13, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (339, 235, 20, 19))
++++ REGION APPEARING AGAIN (dimensions: (339, 235, 20, 19))
 
 ================== FRAME 341 ==========================
 
@@ -16406,7 +16520,7 @@
 @@@ I AM TOO FAR (dimensions: (610, 289, 13, 21))
 @@@ I AM TOO FAR (dimensions: (514, 280, 11, 17))
 @@@ I AM TOO FAR (dimensions: (504, 257, 8, 20))
-@@@ I AM TOO FAR (dimensions: (339, 235, 20, 19))
+### I AM CLOSE TO LINE (dimensions: (339, 235, 20, 19))
 @@@ I AM TOO FAR (dimensions: (252, 222, 20, 19))
 @@@ I AM TOO FAR (dimensions: (237, 221, 10, 21))
 @@@ I AM TOO FAR (dimensions: (311, 217, 16, 21))
@@ -16438,6 +16552,9 @@
 @@@ I AM TOO FAR (dimensions: (338, 168, 13, 20))
 @@@ I AM TOO FAR (dimensions: (439, 80, 21, 19))
 @@@ I AM TOO FAR (dimensions: (521, 31, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (339, 235, 20, 19))
 
 ================== FRAME 342 ==========================
 
@@ -17866,7 +17983,7 @@
 @@@ I AM TOO FAR (dimensions: (522, 287, 8, 20))
 @@@ I AM TOO FAR (dimensions: (281, 240, 21, 19))
 @@@ I AM TOO FAR (dimensions: (258, 239, 16, 21))
-@@@ I AM TOO FAR (dimensions: (335, 236, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (335, 236, 17, 21))
 @@@ I AM TOO FAR (dimensions: (105, 222, 13, 21))
 @@@ I AM TOO FAR (dimensions: (514, 201, 10, 21))
 @@@ I AM TOO FAR (dimensions: (378, 200, 8, 13))
@@ -17890,6 +18007,9 @@
 @@@ I AM TOO FAR (dimensions: (466, 103, 21, 19))
 @@@ I AM TOO FAR (dimensions: (547, 56, 13, 21))
 
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (335, 236, 17, 21))
+
 ================== FRAME 376 ==========================
 
 
@@ -17903,7 +18023,7 @@
 @@@ I AM TOO FAR (dimensions: (523, 287, 8, 20))
 @@@ I AM TOO FAR (dimensions: (281, 240, 21, 19))
 @@@ I AM TOO FAR (dimensions: (258, 239, 16, 21))
-@@@ I AM TOO FAR (dimensions: (335, 236, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (335, 236, 17, 21))
 @@@ I AM TOO FAR (dimensions: (105, 224, 13, 21))
 @@@ I AM TOO FAR (dimensions: (515, 202, 10, 21))
 @@@ I AM TOO FAR (dimensions: (374, 199, 13, 16))
@@ -17926,6 +18046,9 @@
 @@@ I AM TOO FAR (dimensions: (374, 199, 13, 16))
 @@@ I AM TOO FAR (dimensions: (466, 103, 21, 19))
 @@@ I AM TOO FAR (dimensions: (547, 57, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (335, 236, 17, 21))
 
 ================== FRAME 377 ==========================
 
@@ -17965,7 +18088,7 @@
 @@@ I AM TOO FAR (dimensions: (548, 58, 13, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (336, 238, 17, 21))
++++ REGION APPEARING AGAIN (dimensions: (336, 238, 17, 21))
 
 ================== FRAME 378 ==========================
 
@@ -18315,7 +18438,7 @@
 @@@ I AM TOO FAR (dimensions: (571, 334, 8, 21))
 @@@ I AM TOO FAR (dimensions: (547, 311, 11, 20))
 @@@ I AM TOO FAR (dimensions: (525, 291, 8, 20))
-@@@ I AM TOO FAR (dimensions: (369, 279, 20, 19))
+### I AM CLOSE TO LINE (dimensions: (369, 279, 20, 19))
 @@@ I AM TOO FAR (dimensions: (290, 251, 13, 19))
 @@@ I AM TOO FAR (dimensions: (342, 247, 17, 21))
 @@@ I AM TOO FAR (dimensions: (262, 243, 16, 21))
@@ -18324,6 +18447,9 @@
 @@@ I AM TOO FAR (dimensions: (382, 200, 13, 20))
 @@@ I AM TOO FAR (dimensions: (471, 107, 20, 13))
 @@@ I AM TOO FAR (dimensions: (552, 65, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (369, 279, 20, 19))
 
 ================== FRAME 387 ==========================
 
@@ -18342,19 +18468,19 @@
 @@@ I AM TOO FAR (dimensions: (263, 243, 16, 21))
 @@@ I AM TOO FAR (dimensions: (113, 240, 13, 21))
 @@@ I AM TOO FAR (dimensions: (521, 211, 10, 21))
-@@@ I AM TOO FAR (dimensions: (382, 202, 13, 20))
+### I AM CLOSE TO LINE (dimensions: (382, 202, 13, 20))
 @@@ I AM TOO FAR (dimensions: (471, 107, 20, 13))
 @@@ I AM TOO FAR (dimensions: (552, 65, 13, 21))
 
 ------------------- PROXIMITY CHECK -------------------------
-@@@ I AM TOO FAR (dimensions: (125, 427, 15, 20))
+### I AM CLOSE TO LINE (dimensions: (125, 427, 15, 20))
 @@@ I AM TOO FAR (dimensions: (300, 410, 15, 21))
 @@@ I AM TOO FAR (dimensions: (528, 357, 17, 21))
 @@@ I AM TOO FAR (dimensions: (483, 341, 16, 21))
 @@@ I AM TOO FAR (dimensions: (571, 334, 8, 21))
 @@@ I AM TOO FAR (dimensions: (547, 311, 11, 20))
 @@@ I AM TOO FAR (dimensions: (525, 293, 8, 20))
-@@@ I AM TOO FAR (dimensions: (370, 279, 20, 19))
+### I AM CLOSE TO LINE (dimensions: (370, 279, 20, 19))
 @@@ I AM TOO FAR (dimensions: (290, 251, 13, 19))
 @@@ I AM TOO FAR (dimensions: (343, 248, 17, 21))
 @@@ I AM TOO FAR (dimensions: (263, 243, 16, 21))
@@ -18363,6 +18489,13 @@
 @@@ I AM TOO FAR (dimensions: (382, 202, 13, 20))
 @@@ I AM TOO FAR (dimensions: (471, 107, 20, 13))
 @@@ I AM TOO FAR (dimensions: (552, 65, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (382, 202, 13, 20))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (125, 427, 15, 20))
++++ REGION APPEARING AGAIN (dimensions: (370, 279, 20, 19))
 
 ================== FRAME 388 ==========================
 
@@ -18380,19 +18513,19 @@
 @@@ I AM TOO FAR (dimensions: (263, 243, 16, 21))
 @@@ I AM TOO FAR (dimensions: (113, 240, 13, 21))
 @@@ I AM TOO FAR (dimensions: (521, 213, 10, 21))
-@@@ I AM TOO FAR (dimensions: (382, 203, 13, 20))
+### I AM CLOSE TO LINE (dimensions: (382, 203, 13, 20))
 @@@ I AM TOO FAR (dimensions: (471, 107, 20, 13))
 @@@ I AM TOO FAR (dimensions: (554, 65, 13, 21))
 
 ------------------- PROXIMITY CHECK -------------------------
-@@@ I AM TOO FAR (dimensions: (126, 427, 15, 20))
+### I AM CLOSE TO LINE (dimensions: (126, 427, 15, 20))
 @@@ I AM TOO FAR (dimensions: (300, 411, 15, 21))
 @@@ I AM TOO FAR (dimensions: (530, 359, 17, 21))
 @@@ I AM TOO FAR (dimensions: (483, 343, 16, 21))
 @@@ I AM TOO FAR (dimensions: (571, 334, 8, 21))
 @@@ I AM TOO FAR (dimensions: (547, 311, 11, 20))
 @@@ I AM TOO FAR (dimensions: (525, 294, 8, 20))
-@@@ I AM TOO FAR (dimensions: (372, 279, 20, 19))
+### I AM CLOSE TO LINE (dimensions: (372, 279, 20, 19))
 @@@ I AM TOO FAR (dimensions: (344, 250, 17, 21))
 @@@ I AM TOO FAR (dimensions: (263, 243, 16, 21))
 @@@ I AM TOO FAR (dimensions: (113, 240, 13, 21))
@@ -18400,6 +18533,13 @@
 @@@ I AM TOO FAR (dimensions: (382, 203, 13, 20))
 @@@ I AM TOO FAR (dimensions: (471, 107, 20, 13))
 @@@ I AM TOO FAR (dimensions: (554, 65, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (382, 203, 13, 20))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (126, 427, 15, 20))
++++ REGION APPEARING AGAIN (dimensions: (372, 279, 20, 19))
 
 ================== FRAME 389 ==========================
 
@@ -18439,11 +18579,11 @@
 @@@ I AM TOO FAR (dimensions: (554, 65, 13, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (383, 203, 13, 20))
++++ REGION APPEARING AGAIN (dimensions: (383, 203, 13, 20))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (127, 427, 15, 20))
-*** FOUND NEW REGION (dimensions: (374, 280, 20, 19))
++++ REGION APPEARING AGAIN (dimensions: (127, 427, 15, 20))
++++ REGION APPEARING AGAIN (dimensions: (374, 280, 20, 19))
 
 ================== FRAME 390 ==========================
 
@@ -18747,7 +18887,7 @@
 @@@ I AM TOO FAR (dimensions: (554, 316, 11, 20))
 @@@ I AM TOO FAR (dimensions: (527, 298, 8, 20))
 @@@ I AM TOO FAR (dimensions: (381, 285, 20, 19))
-@@@ I AM TOO FAR (dimensions: (301, 262, 21, 19))
+### I AM CLOSE TO LINE (dimensions: (301, 262, 21, 19))
 @@@ I AM TOO FAR (dimensions: (271, 254, 16, 21))
 @@@ I AM TOO FAR (dimensions: (349, 253, 17, 21))
 @@@ I AM TOO FAR (dimensions: (121, 249, 13, 21))
@@ -18771,6 +18911,9 @@
 @@@ I AM TOO FAR (dimensions: (529, 223, 10, 21))
 @@@ I AM TOO FAR (dimensions: (392, 209, 13, 20))
 @@@ I AM TOO FAR (dimensions: (560, 75, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (301, 262, 21, 19))
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (132, 429, 15, 20))
@@ -18813,7 +18956,7 @@
 @@@ I AM TOO FAR (dimensions: (560, 76, 13, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (301, 264, 21, 19))
++++ REGION APPEARING AGAIN (dimensions: (301, 264, 21, 19))
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (133, 429, 15, 20))
@@ -19038,7 +19181,7 @@
 @@@ I AM TOO FAR (dimensions: (126, 253, 13, 21))
 @@@ I AM TOO FAR (dimensions: (532, 224, 10, 21))
 @@@ I AM TOO FAR (dimensions: (400, 219, 13, 20))
-@@@ I AM TOO FAR (dimensions: (485, 124, 21, 19))
+### I AM CLOSE TO LINE (dimensions: (485, 124, 21, 19))
 @@@ I AM TOO FAR (dimensions: (563, 81, 13, 21))
 
 ------------------- PROXIMITY CHECK -------------------------
@@ -19059,6 +19202,9 @@
 @@@ I AM TOO FAR (dimensions: (485, 124, 21, 19))
 @@@ I AM TOO FAR (dimensions: (563, 81, 13, 21))
 
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (485, 124, 21, 19))
+
 ================== FRAME 405 ==========================
 
 
@@ -19077,7 +19223,7 @@
 @@@ I AM TOO FAR (dimensions: (126, 253, 13, 21))
 @@@ I AM TOO FAR (dimensions: (532, 226, 10, 21))
 @@@ I AM TOO FAR (dimensions: (402, 219, 13, 20))
-@@@ I AM TOO FAR (dimensions: (486, 125, 21, 19))
+### I AM CLOSE TO LINE (dimensions: (486, 125, 21, 19))
 @@@ I AM TOO FAR (dimensions: (563, 81, 13, 21))
 
 ------------------- PROXIMITY CHECK -------------------------
@@ -19097,6 +19243,9 @@
 @@@ I AM TOO FAR (dimensions: (402, 219, 13, 20))
 @@@ I AM TOO FAR (dimensions: (486, 125, 21, 19))
 @@@ I AM TOO FAR (dimensions: (563, 81, 13, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (486, 125, 21, 19))
 
 ================== FRAME 406 ==========================
 
@@ -19138,7 +19287,7 @@
 @@@ I AM TOO FAR (dimensions: (565, 81, 13, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (487, 126, 21, 19))
++++ REGION APPEARING AGAIN (dimensions: (487, 126, 21, 19))
 
 ================== FRAME 407 ==========================
 
@@ -19917,13 +20066,16 @@
 @@@ I AM TOO FAR (dimensions: (551, 317, 8, 20))
 @@@ I AM TOO FAR (dimensions: (411, 315, 20, 19))
 @@@ I AM TOO FAR (dimensions: (294, 278, 16, 21))
-@@@ I AM TOO FAR (dimensions: (375, 274, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (375, 274, 17, 21))
 @@@ I AM TOO FAR (dimensions: (137, 267, 13, 21))
 @@@ I AM TOO FAR (dimensions: (551, 241, 10, 21))
 @@@ I AM TOO FAR (dimensions: (422, 234, 13, 20))
 @@@ I AM TOO FAR (dimensions: (500, 139, 21, 19))
 @@@ I AM TOO FAR (dimensions: (587, 96, 13, 21))
 @@@ I AM TOO FAR (dimensions: (382, 9, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (375, 274, 17, 21))
 
 ================== FRAME 427 ==========================
 
@@ -19956,13 +20108,16 @@
 @@@ I AM TOO FAR (dimensions: (551, 318, 8, 20))
 @@@ I AM TOO FAR (dimensions: (413, 316, 20, 19))
 @@@ I AM TOO FAR (dimensions: (295, 278, 16, 21))
-@@@ I AM TOO FAR (dimensions: (377, 274, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (377, 274, 17, 21))
 @@@ I AM TOO FAR (dimensions: (137, 267, 13, 21))
 @@@ I AM TOO FAR (dimensions: (551, 241, 10, 21))
 @@@ I AM TOO FAR (dimensions: (423, 235, 13, 20))
 @@@ I AM TOO FAR (dimensions: (500, 139, 21, 19))
 @@@ I AM TOO FAR (dimensions: (587, 97, 13, 21))
 @@@ I AM TOO FAR (dimensions: (383, 9, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (377, 274, 17, 21))
 
 ================== FRAME 428 ==========================
 
@@ -19995,13 +20150,16 @@
 @@@ I AM TOO FAR (dimensions: (551, 318, 8, 20))
 @@@ I AM TOO FAR (dimensions: (415, 318, 20, 19))
 @@@ I AM TOO FAR (dimensions: (295, 278, 16, 21))
-@@@ I AM TOO FAR (dimensions: (377, 274, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (377, 274, 17, 21))
 @@@ I AM TOO FAR (dimensions: (138, 267, 13, 21))
 @@@ I AM TOO FAR (dimensions: (552, 243, 10, 21))
 @@@ I AM TOO FAR (dimensions: (423, 237, 13, 20))
 @@@ I AM TOO FAR (dimensions: (501, 139, 21, 19))
 @@@ I AM TOO FAR (dimensions: (588, 99, 13, 21))
 @@@ I AM TOO FAR (dimensions: (385, 9, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (377, 274, 17, 21))
 
 ================== FRAME 429 ==========================
 
@@ -20034,13 +20192,16 @@
 @@@ I AM TOO FAR (dimensions: (553, 320, 8, 20))
 @@@ I AM TOO FAR (dimensions: (415, 319, 20, 19))
 @@@ I AM TOO FAR (dimensions: (295, 280, 16, 21))
-@@@ I AM TOO FAR (dimensions: (379, 274, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (379, 274, 17, 21))
 @@@ I AM TOO FAR (dimensions: (140, 269, 13, 21))
 @@@ I AM TOO FAR (dimensions: (552, 243, 10, 21))
 @@@ I AM TOO FAR (dimensions: (425, 239, 13, 20))
 @@@ I AM TOO FAR (dimensions: (501, 139, 21, 19))
 @@@ I AM TOO FAR (dimensions: (590, 101, 13, 21))
 @@@ I AM TOO FAR (dimensions: (387, 9, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (379, 274, 17, 21))
 
 ================== FRAME 430 ==========================
 
@@ -20084,7 +20245,7 @@
 @@@ I AM TOO FAR (dimensions: (389, 9, 19, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (379, 275, 17, 21))
++++ REGION APPEARING AGAIN (dimensions: (379, 275, 17, 21))
 
 ================== FRAME 431 ==========================
 
@@ -20119,13 +20280,16 @@
 @@@ I AM TOO FAR (dimensions: (415, 319, 20, 19))
 @@@ I AM TOO FAR (dimensions: (326, 296, 20, 13))
 @@@ I AM TOO FAR (dimensions: (295, 282, 16, 21))
-@@@ I AM TOO FAR (dimensions: (381, 277, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (381, 277, 17, 21))
 @@@ I AM TOO FAR (dimensions: (140, 270, 13, 21))
 @@@ I AM TOO FAR (dimensions: (552, 243, 10, 21))
 @@@ I AM TOO FAR (dimensions: (425, 241, 13, 20))
 @@@ I AM TOO FAR (dimensions: (505, 141, 21, 19))
 @@@ I AM TOO FAR (dimensions: (592, 101, 13, 21))
 @@@ I AM TOO FAR (dimensions: (389, 9, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (381, 277, 17, 21))
 
 ================== FRAME 432 ==========================
 
@@ -20158,13 +20322,16 @@
 @@@ I AM TOO FAR (dimensions: (558, 322, 8, 20))
 @@@ I AM TOO FAR (dimensions: (416, 319, 20, 19))
 @@@ I AM TOO FAR (dimensions: (297, 282, 16, 21))
-@@@ I AM TOO FAR (dimensions: (381, 277, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (381, 277, 17, 21))
 @@@ I AM TOO FAR (dimensions: (142, 270, 13, 21))
 @@@ I AM TOO FAR (dimensions: (554, 243, 10, 21))
 @@@ I AM TOO FAR (dimensions: (425, 241, 13, 20))
 @@@ I AM TOO FAR (dimensions: (505, 142, 21, 19))
 @@@ I AM TOO FAR (dimensions: (592, 103, 13, 21))
 @@@ I AM TOO FAR (dimensions: (388, 9, 20, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (381, 277, 17, 21))
 
 ================== FRAME 433 ==========================
 
@@ -20689,7 +20856,7 @@
 @@@ I AM TOO FAR (dimensions: (595, 350, 11, 20))
 @@@ I AM TOO FAR (dimensions: (570, 335, 8, 20))
 @@@ I AM TOO FAR (dimensions: (428, 327, 20, 19))
-@@@ I AM TOO FAR (dimensions: (338, 297, 20, 19))
+### I AM CLOSE TO LINE (dimensions: (338, 297, 20, 19))
 @@@ I AM TOO FAR (dimensions: (306, 292, 16, 18))
 @@@ I AM TOO FAR (dimensions: (392, 285, 17, 21))
 @@@ I AM TOO FAR (dimensions: (150, 285, 13, 21))
@@ -20698,6 +20865,9 @@
 @@@ I AM TOO FAR (dimensions: (519, 154, 21, 19))
 @@@ I AM TOO FAR (dimensions: (601, 111, 13, 21))
 @@@ I AM TOO FAR (dimensions: (393, 17, 20, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (338, 297, 20, 19))
 
 ================== FRAME 446 ==========================
 
@@ -20739,7 +20909,7 @@
 @@@ I AM TOO FAR (dimensions: (395, 19, 20, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (338, 299, 20, 19))
++++ REGION APPEARING AGAIN (dimensions: (338, 299, 20, 19))
 
 ================== FRAME 447 ==========================
 
@@ -21412,7 +21582,7 @@
 @@@ I AM TOO FAR (dimensions: (584, 342, 8, 20))
 @@@ I AM TOO FAR (dimensions: (447, 341, 20, 19))
 @@@ I AM TOO FAR (dimensions: (352, 317, 21, 19))
-@@@ I AM TOO FAR (dimensions: (318, 309, 16, 21))
+### I AM CLOSE TO LINE (dimensions: (318, 309, 16, 21))
 @@@ I AM TOO FAR (dimensions: (399, 298, 17, 21))
 @@@ I AM TOO FAR (dimensions: (173, 297, 13, 21))
 @@@ I AM TOO FAR (dimensions: (448, 266, 13, 20))
@@ -21421,6 +21591,9 @@
 @@@ I AM TOO FAR (dimensions: (618, 122, 13, 21))
 @@@ I AM TOO FAR (dimensions: (409, 35, 20, 21))
 @@@ I AM TOO FAR (dimensions: (575, 17, 14, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (318, 309, 16, 21))
 
 ================== FRAME 465 ==========================
 
@@ -21460,7 +21633,7 @@
 @@@ I AM TOO FAR (dimensions: (575, 18, 14, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (319, 311, 16, 21))
++++ REGION APPEARING AGAIN (dimensions: (319, 311, 16, 21))
 
 ================== FRAME 466 ==========================
 
@@ -24009,7 +24182,7 @@
 @@@ I AM TOO FAR (dimensions: (515, 392, 20, 19))
 @@@ I AM TOO FAR (dimensions: (429, 383, 20, 19))
 @@@ I AM TOO FAR (dimensions: (370, 368, 16, 21))
-@@@ I AM TOO FAR (dimensions: (227, 365, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (227, 365, 13, 21))
 @@@ I AM TOO FAR (dimensions: (454, 355, 17, 21))
 @@@ I AM TOO FAR (dimensions: (500, 327, 13, 20))
 @@@ I AM TOO FAR (dimensions: (26, 254, 15, 21))
@@ -24017,6 +24190,9 @@
 @@@ I AM TOO FAR (dimensions: (465, 87, 19, 21))
 @@@ I AM TOO FAR (dimensions: (160, 29, 6, 21))
 @@@ I AM TOO FAR (dimensions: (334, 13, 11, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (227, 365, 13, 21))
 
 ================== FRAME 546 ==========================
 
@@ -24050,7 +24226,7 @@
 @@@ I AM TOO FAR (dimensions: (335, 13, 11, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (229, 366, 13, 21))
++++ REGION APPEARING AGAIN (dimensions: (229, 366, 13, 21))
 
 ================== FRAME 547 ==========================
 
@@ -25313,7 +25489,7 @@
 @@@ I AM TOO FAR (dimensions: (8, 321, 19, 21))
 @@@ I AM TOO FAR (dimensions: (60, 286, 14, 21))
 @@@ I AM TOO FAR (dimensions: (38, 170, 13, 20))
-@@@ I AM TOO FAR (dimensions: (498, 113, 19, 15))
+### I AM CLOSE TO LINE (dimensions: (498, 113, 19, 15))
 @@@ I AM TOO FAR (dimensions: (194, 63, 6, 21))
 @@@ I AM TOO FAR (dimensions: (367, 45, 11, 21))
 
@@ -25330,6 +25506,9 @@
 @@@ I AM TOO FAR (dimensions: (498, 113, 19, 15))
 @@@ I AM TOO FAR (dimensions: (194, 63, 6, 21))
 @@@ I AM TOO FAR (dimensions: (367, 45, 11, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (498, 113, 19, 15))
 
 ================== FRAME 588 ==========================
 
@@ -28967,7 +29146,7 @@
 @@@ I AM TOO FAR (dimensions: (119, 270, 13, 20))
 @@@ I AM TOO FAR (dimensions: (604, 202, 20, 21))
 @@@ I AM TOO FAR (dimensions: (288, 145, 6, 21))
-@@@ I AM TOO FAR (dimensions: (469, 136, 11, 21))
+### I AM CLOSE TO LINE (dimensions: (469, 136, 11, 21))
 @@@ I AM TOO FAR (dimensions: (360, 47, 11, 20))
 @@@ I AM TOO FAR (dimensions: (421, 36, 19, 21))
 
@@ -28980,6 +29159,9 @@
 @@@ I AM TOO FAR (dimensions: (469, 136, 11, 21))
 @@@ I AM TOO FAR (dimensions: (360, 47, 11, 20))
 @@@ I AM TOO FAR (dimensions: (421, 36, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (469, 136, 11, 21))
 
 ================== FRAME 716 ==========================
 
@@ -29005,7 +29187,7 @@
 @@@ I AM TOO FAR (dimensions: (423, 36, 19, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (471, 137, 11, 21))
++++ REGION APPEARING AGAIN (dimensions: (471, 137, 11, 21))
 
 ================== FRAME 717 ==========================
 
@@ -29212,13 +29394,16 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (117, 426, 19, 21))
-@@@ I AM TOO FAR (dimensions: (179, 392, 14, 21))
+### I AM CLOSE TO LINE (dimensions: (179, 392, 14, 21))
 @@@ I AM TOO FAR (dimensions: (123, 280, 13, 20))
 @@@ I AM TOO FAR (dimensions: (608, 213, 20, 21))
 @@@ I AM TOO FAR (dimensions: (297, 153, 6, 21))
 @@@ I AM TOO FAR (dimensions: (477, 148, 11, 21))
 @@@ I AM TOO FAR (dimensions: (369, 55, 11, 20))
 @@@ I AM TOO FAR (dimensions: (430, 43, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (179, 392, 14, 21))
 
 ================== FRAME 726 ==========================
 
@@ -29235,13 +29420,16 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (119, 428, 19, 21))
-@@@ I AM TOO FAR (dimensions: (180, 392, 14, 21))
+### I AM CLOSE TO LINE (dimensions: (180, 392, 14, 21))
 @@@ I AM TOO FAR (dimensions: (124, 280, 13, 20))
 @@@ I AM TOO FAR (dimensions: (608, 213, 20, 21))
 @@@ I AM TOO FAR (dimensions: (297, 155, 6, 21))
 @@@ I AM TOO FAR (dimensions: (479, 148, 11, 21))
 @@@ I AM TOO FAR (dimensions: (369, 57, 11, 20))
 @@@ I AM TOO FAR (dimensions: (432, 43, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (180, 392, 14, 21))
 
 ================== FRAME 727 ==========================
 
@@ -29258,13 +29446,16 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (121, 428, 19, 21))
-@@@ I AM TOO FAR (dimensions: (180, 392, 14, 21))
+### I AM CLOSE TO LINE (dimensions: (180, 392, 14, 21))
 @@@ I AM TOO FAR (dimensions: (124, 280, 13, 20))
 @@@ I AM TOO FAR (dimensions: (610, 213, 20, 21))
 @@@ I AM TOO FAR (dimensions: (297, 157, 6, 21))
 @@@ I AM TOO FAR (dimensions: (481, 148, 11, 21))
 @@@ I AM TOO FAR (dimensions: (369, 57, 11, 20))
 @@@ I AM TOO FAR (dimensions: (432, 43, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (180, 392, 14, 21))
 
 ================== FRAME 728 ==========================
 
@@ -29281,13 +29472,16 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (121, 430, 19, 21))
-@@@ I AM TOO FAR (dimensions: (180, 392, 14, 21))
+### I AM CLOSE TO LINE (dimensions: (180, 392, 14, 21))
 @@@ I AM TOO FAR (dimensions: (125, 281, 13, 20))
 @@@ I AM TOO FAR (dimensions: (610, 215, 20, 21))
 @@@ I AM TOO FAR (dimensions: (298, 157, 6, 21))
 @@@ I AM TOO FAR (dimensions: (481, 150, 11, 21))
 @@@ I AM TOO FAR (dimensions: (370, 57, 11, 20))
 @@@ I AM TOO FAR (dimensions: (433, 43, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (180, 392, 14, 21))
 
 ================== FRAME 729 ==========================
 
@@ -29304,13 +29498,16 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (121, 430, 19, 21))
-@@@ I AM TOO FAR (dimensions: (180, 393, 14, 21))
+### I AM CLOSE TO LINE (dimensions: (180, 393, 14, 21))
 @@@ I AM TOO FAR (dimensions: (125, 281, 13, 20))
 @@@ I AM TOO FAR (dimensions: (610, 216, 20, 21))
 @@@ I AM TOO FAR (dimensions: (300, 157, 6, 21))
 @@@ I AM TOO FAR (dimensions: (481, 150, 11, 21))
 @@@ I AM TOO FAR (dimensions: (370, 57, 11, 20))
 @@@ I AM TOO FAR (dimensions: (434, 45, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (180, 393, 14, 21))
 
 ================== FRAME 730 ==========================
 
@@ -29327,13 +29524,16 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (121, 430, 19, 21))
-@@@ I AM TOO FAR (dimensions: (180, 394, 14, 21))
+### I AM CLOSE TO LINE (dimensions: (180, 394, 14, 21))
 @@@ I AM TOO FAR (dimensions: (125, 283, 13, 20))
 @@@ I AM TOO FAR (dimensions: (610, 218, 20, 21))
 @@@ I AM TOO FAR (dimensions: (302, 158, 6, 21))
 @@@ I AM TOO FAR (dimensions: (481, 150, 11, 21))
 @@@ I AM TOO FAR (dimensions: (370, 58, 11, 20))
 @@@ I AM TOO FAR (dimensions: (434, 47, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (180, 394, 14, 21))
 
 ================== FRAME 731 ==========================
 
@@ -29359,7 +29559,7 @@
 @@@ I AM TOO FAR (dimensions: (435, 47, 19, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (182, 395, 14, 21))
++++ REGION APPEARING AGAIN (dimensions: (182, 395, 14, 21))
 
 ================== FRAME 732 ==========================
 
@@ -31905,7 +32105,7 @@
 @@@ I AM TOO FAR (dimensions: (74, 349, 13, 21))
 @@@ I AM TOO FAR (dimensions: (390, 243, 6, 21))
 @@@ I AM TOO FAR (dimensions: (556, 242, 11, 21))
-@@@ I AM TOO FAR (dimensions: (465, 138, 11, 20))
+### I AM CLOSE TO LINE (dimensions: (465, 138, 11, 20))
 @@@ I AM TOO FAR (dimensions: (519, 120, 19, 21))
 
 ------------------- PROXIMITY CHECK -------------------------
@@ -31916,6 +32116,9 @@
 @@@ I AM TOO FAR (dimensions: (556, 242, 11, 21))
 @@@ I AM TOO FAR (dimensions: (465, 138, 11, 20))
 @@@ I AM TOO FAR (dimensions: (519, 120, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (465, 138, 11, 20))
 
 ================== FRAME 850 ==========================
 
@@ -31947,7 +32150,7 @@
 @@@ I AM TOO FAR (dimensions: (76, 349, 13, 21))
 @@@ I AM TOO FAR (dimensions: (391, 247, 6, 21))
 @@@ I AM TOO FAR (dimensions: (558, 244, 11, 21))
-@@@ I AM TOO FAR (dimensions: (465, 139, 11, 20))
+### I AM CLOSE TO LINE (dimensions: (465, 139, 11, 20))
 @@@ I AM TOO FAR (dimensions: (519, 122, 19, 21))
 
 ------------------- PROXIMITY CHECK -------------------------
@@ -31958,6 +32161,9 @@
 @@@ I AM TOO FAR (dimensions: (558, 244, 11, 21))
 @@@ I AM TOO FAR (dimensions: (465, 139, 11, 20))
 @@@ I AM TOO FAR (dimensions: (519, 122, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (465, 139, 11, 20))
 
 ================== FRAME 852 ==========================
 
@@ -31981,7 +32187,7 @@
 @@@ I AM TOO FAR (dimensions: (521, 122, 19, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (466, 141, 11, 20))
++++ REGION APPEARING AGAIN (dimensions: (466, 141, 11, 20))
 
 ================== FRAME 853 ==========================
 
@@ -31992,7 +32198,7 @@
 @@@ I AM TOO FAR (dimensions: (79, 350, 13, 21))
 @@@ I AM TOO FAR (dimensions: (394, 248, 6, 21))
 @@@ I AM TOO FAR (dimensions: (561, 245, 11, 21))
-@@@ I AM TOO FAR (dimensions: (466, 141, 11, 20))
+### I AM CLOSE TO LINE (dimensions: (466, 141, 11, 20))
 @@@ I AM TOO FAR (dimensions: (521, 123, 19, 21))
 
 ------------------- PROXIMITY CHECK -------------------------
@@ -32003,6 +32209,9 @@
 @@@ I AM TOO FAR (dimensions: (561, 245, 11, 21))
 @@@ I AM TOO FAR (dimensions: (466, 141, 11, 20))
 @@@ I AM TOO FAR (dimensions: (521, 123, 19, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (466, 141, 11, 20))
 
 ================== FRAME 854 ==========================
 
@@ -32018,7 +32227,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (62, 394, 15, 21))
-@@@ I AM TOO FAR (dimensions: (212, 372, 13, 20))
+### I AM CLOSE TO LINE (dimensions: (212, 372, 13, 20))
 @@@ I AM TOO FAR (dimensions: (79, 350, 13, 21))
 @@@ I AM TOO FAR (dimensions: (394, 248, 6, 21))
 @@@ I AM TOO FAR (dimensions: (563, 245, 11, 21))
@@ -32027,6 +32236,9 @@
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (467, 143, 11, 20))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (212, 372, 13, 20))
 
 ================== FRAME 855 ==========================
 
@@ -32042,7 +32254,7 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (62, 396, 15, 21))
-@@@ I AM TOO FAR (dimensions: (214, 373, 13, 20))
+### I AM CLOSE TO LINE (dimensions: (214, 373, 13, 20))
 @@@ I AM TOO FAR (dimensions: (81, 350, 13, 21))
 @@@ I AM TOO FAR (dimensions: (394, 250, 6, 21))
 @@@ I AM TOO FAR (dimensions: (564, 245, 11, 21))
@@ -32051,6 +32263,9 @@
 
 -------------------- REDUNDANCY CHECK --------------------------
 +++ REGION APPEARING AGAIN (dimensions: (467, 143, 11, 20))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (214, 373, 13, 20))
 
 ================== FRAME 856 ==========================
 
@@ -32074,7 +32289,7 @@
 @@@ I AM TOO FAR (dimensions: (525, 125, 19, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (215, 373, 13, 20))
++++ REGION APPEARING AGAIN (dimensions: (215, 373, 13, 20))
 
 ================== FRAME 857 ==========================
 
@@ -33970,13 +34185,16 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (295, 435, 13, 20))
-@@@ I AM TOO FAR (dimensions: (137, 418, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (137, 418, 13, 21))
 @@@ I AM TOO FAR (dimensions: (17, 400, 13, 21))
 @@@ I AM TOO FAR (dimensions: (452, 306, 6, 21))
 @@@ I AM TOO FAR (dimensions: (531, 207, 11, 20))
 @@@ I AM TOO FAR (dimensions: (582, 191, 19, 21))
 @@@ I AM TOO FAR (dimensions: (45, 178, 17, 21))
 @@@ I AM TOO FAR (dimensions: (619, 35, 14, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (137, 418, 13, 21))
 
 ================== FRAME 941 ==========================
 
@@ -33993,13 +34211,16 @@
 
 ------------------- PROXIMITY CHECK -------------------------
 @@@ I AM TOO FAR (dimensions: (297, 435, 13, 20))
-@@@ I AM TOO FAR (dimensions: (137, 419, 13, 21))
+### I AM CLOSE TO LINE (dimensions: (137, 419, 13, 21))
 @@@ I AM TOO FAR (dimensions: (17, 400, 13, 21))
 @@@ I AM TOO FAR (dimensions: (453, 307, 6, 21))
 @@@ I AM TOO FAR (dimensions: (531, 207, 11, 20))
 @@@ I AM TOO FAR (dimensions: (584, 193, 19, 21))
 @@@ I AM TOO FAR (dimensions: (45, 179, 17, 21))
 @@@ I AM TOO FAR (dimensions: (619, 36, 14, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (137, 419, 13, 21))
 
 ================== FRAME 942 ==========================
 
@@ -34025,7 +34246,7 @@
 @@@ I AM TOO FAR (dimensions: (347, 5, 9, 20))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (138, 421, 13, 21))
++++ REGION APPEARING AGAIN (dimensions: (138, 421, 13, 21))
 
 ================== FRAME 943 ==========================
 
@@ -37223,7 +37444,7 @@
 @@@ I AM TOO FAR (dimensions: (581, 421, 6, 21))
 @@@ I AM TOO FAR (dimensions: (158, 283, 17, 21))
 @@@ I AM TOO FAR (dimensions: (27, 161, 20, 19))
-@@@ I AM TOO FAR (dimensions: (483, 126, 9, 20))
+### I AM CLOSE TO LINE (dimensions: (483, 126, 9, 20))
 @@@ I AM TOO FAR (dimensions: (73, 113, 21, 18))
 @@@ I AM TOO FAR (dimensions: (328, 61, 17, 21))
 @@@ I AM TOO FAR (dimensions: (234, 21, 19, 21))
@@ -37238,6 +37459,9 @@
 @@@ I AM TOO FAR (dimensions: (328, 61, 17, 21))
 @@@ I AM TOO FAR (dimensions: (234, 21, 19, 21))
 @@@ I AM TOO FAR (dimensions: (162, 8, 17, 21))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (483, 126, 9, 20))
 
 ================== FRAME 1101 ==========================
 
@@ -37263,7 +37487,7 @@
 @@@ I AM TOO FAR (dimensions: (162, 9, 17, 21))
 
 -------------------- REDUNDANCY CHECK --------------------------
-*** FOUND NEW REGION (dimensions: (484, 126, 9, 20))
++++ REGION APPEARING AGAIN (dimensions: (484, 126, 9, 20))
 
 ================== FRAME 1102 ==========================
 
@@ -39693,7 +39917,7 @@
 @@@ I AM TOO FAR (dimensions: (380, 21, 21, 15))
 
 ------------------- PROXIMITY CHECK -------------------------
-@@@ I AM TOO FAR (dimensions: (228, 363, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (228, 363, 17, 21))
 @@@ I AM TOO FAR (dimensions: (93, 247, 20, 19))
 @@@ I AM TOO FAR (dimensions: (540, 201, 9, 20))
 @@@ I AM TOO FAR (dimensions: (135, 192, 21, 18))
@@ -39704,6 +39928,9 @@
 @@@ I AM TOO FAR (dimensions: (233, 85, 17, 21))
 @@@ I AM TOO FAR (dimensions: (463, 46, 14, 20))
 @@@ I AM TOO FAR (dimensions: (380, 21, 21, 15))
+
+-------------------- REDUNDANCY CHECK --------------------------
+*** FOUND NEW REGION (dimensions: (228, 363, 17, 21))
 
 ================== FRAME 1199 ==========================
 
@@ -39722,7 +39949,7 @@
 @@@ I AM TOO FAR (dimensions: (381, 22, 21, 15))
 
 ------------------- PROXIMITY CHECK -------------------------
-@@@ I AM TOO FAR (dimensions: (230, 363, 17, 21))
+### I AM CLOSE TO LINE (dimensions: (230, 363, 17, 21))
 @@@ I AM TOO FAR (dimensions: (95, 247, 20, 19))
 @@@ I AM TOO FAR (dimensions: (540, 201, 9, 20))
 @@@ I AM TOO FAR (dimensions: (137, 193, 21, 18))
@@ -39733,3 +39960,6 @@
 @@@ I AM TOO FAR (dimensions: (233, 85, 17, 21))
 @@@ I AM TOO FAR (dimensions: (464, 48, 14, 20))
 @@@ I AM TOO FAR (dimensions: (381, 22, 21, 15))
+
+-------------------- REDUNDANCY CHECK --------------------------
++++ REGION APPEARING AGAIN (dimensions: (230, 363, 17, 21))

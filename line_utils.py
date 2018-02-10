@@ -82,7 +82,9 @@ def check_if_matches_line(contour, pixel_lines):
         for pixel in line:
             if contour[0] == pixel[0] and contour[1] == pixel[1]:
                 return True
-            elif contour[0] == pixel[0] and (contour[1] - pixel[1]) in range(0, 4):
+            elif contour[0] == pixel[0] and abs(contour[1] - pixel[1]) in range(0, 4):
+                return True
+            elif abs(contour[0] - pixel[0]) in range(0, 4) and contour[1] == pixel[1]:
                 return True
 
     return False
